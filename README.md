@@ -56,4 +56,16 @@ src : Contains csv files that have all the actual data for the anki deck.
 Editing is done in csv cause they are easier to deal with / format / edit than
 json or within Anki directly.
 
+NOTES
+
+I had problems with the brain-brew installation. I installed it fine , but I couldnt run the init from the commandline , with error being command not found. I got around it by doing : $HOME/.local/bin/brainbrew init , but a longer term soulution would be to add this directory to path. Ill do it later though , cause for now its working ...
+
+
+
+TO CREATE A NEW COLLABORATABLE ANKI PROJECT
+
+Export Deck as crowdanki file
+run brainbrew init <folder_name> in folder
+profit
+
 
