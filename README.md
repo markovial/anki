@@ -1,33 +1,32 @@
 
 ## Todo
-* Create yaml recipes for Deutsch
-* Add other decks
-* Readme - add process for easy new deck onboarding
+* Get the german deck working , with full export import cycle tested
 * Delete all images from Deutsch decks , and replace with open source / cited images
+* Readme - add process for easy new deck onboarding
+
 
 ## Export your deck
 
 How does a deck go from anki to git ? :
 
-|               |                          | |
-| :-- | :--          | :-- |
-| CrowdAnki     | Export Deck as json file | Export as CrowdAnki JSON representation|
-| Brain-Brew    | Unpack json into csv    | brainbrew init <br /> brainbrew run recipes/anki_to_source.yaml|
-||||
-| LibreOffice   | Edit fields in csv       | data/src/deckname.csv|
-| Git           | Publish                  | git push |
+|             |                          |                                                                 |
+| :--         | :--                      | :--                                                             |
+| CrowdAnki   | Export Deck as json file | Export as CrowdAnki JSON representation                         |
+| Brain-Brew  | Unpack json into csv     | brainbrew init <br /> brainbrew run recipes/anki_to_source.yaml |
+| LibreOffice | Edit fields in csv       | data/src/deckname.csv                                           |
+| Git         | Publish                  | git push                                                        |
 
 ## Import a new deck
-|               |                            | |
-| ------------- | :-------------             | |
-| Git           | Get from github            | git pull |
-| Brain-Brew    | Convert csv to json        | brainbrew run recipes/source_to_anki.yaml|
-| CrowdAnki     | Import Deck from json file | Import from disk (import build folder)|
+|            |                            |                                           |
+| --         | :--                        | :--                                       |
+| Git        | Get from github            | git pull                                  |
+| Brain-Brew | Convert csv to json        | brainbrew run recipes/source_to_anki.yaml |
+| CrowdAnki  | Import Deck from json file | Import from disk (import build folder)    |
 
 ## Making Contributions
 
-Edit the csv files in : src , using either excel or libreoffice or whatever you
-want. Then push the changes to git.
+Edit the csv files in : data/src , using either excel or libreoffice or
+whatever you want. Then push the changes to git.
 
 You don't have to edit only in the csv format. You can just do all your edits
 in Anki itself , and export using CrowdAnki. These changes will still be
@@ -36,11 +35,11 @@ showing one possible workflow.
 
 ## Dependencies
 
-[Python 3.7+](https://www.python.org/)
-[pip](https://pypi.org/project/pip/)
-[pipenv 2021.11.23+](pypi.org/project/pipenv/)
-[Brain-Brew 0.3.6+](github.com/ohare93/brain-brew)
-[CrowdAnki Plugin](ankiweb.net/shared/info/1788670778)
+[Python 3.7+](https://www.python.org/) \
+[pip](https://pypi.org/project/pip/) \
+[pipenv 2021.11.23+](https://pypi.org/project/pipenv/) \
+[Brain-Brew 0.3.6+](https://github.com/ohare93/brain-brew) \
+[CrowdAnki Plugin](https://ankiweb.net/shared/info/1788670778)
 
 
 If you have newer versions , make sure to edit the Pipfile in the root
