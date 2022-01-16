@@ -1,0 +1,39 @@
+name: GK - Art ( new )
+id: 6b8ed05a-76fd-11ec-9638-709cd152b732
+css_file: src/note_models/GK - Art ( new )/style.css
+latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\
+  \\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\
+  \\begin{document}\n"
+fields:
+- name: Artist
+  font: Arial
+- name: Artist Image
+  font: Arial
+- name: Artist Year
+  font: Arial
+- name: Artist Nationality
+  font: Arial
+- name: Artist Portrait Source
+  font: Arial
+- name: Artwork
+  font: Arial
+- name: Artwork Image
+  font: Arial
+- name: Artwork Year
+  font: Arial
+- name: Artwork Image Source
+  font: Arial
+- name: Movement
+  font: Arial
+- name: Notes
+  font: Arial
+templates:
+- name: Painting -> Artist
+  html_file: src/note_models/GK - Art ( new )/Painting -> Artist.html
+  browser_font: Arial
+  browser_font_size: 12
+required_fields_per_template:
+- - 0
+  - any
+  - - 0
+    - 5

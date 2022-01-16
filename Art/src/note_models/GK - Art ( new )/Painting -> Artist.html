@@ -1,0 +1,81 @@
+<table>
+	<tr>
+
+		{{#Artwork}}	
+		<td class="box" valign="top" rowspan="1">
+			<div class="label">	Artwork		</div> <br><br>
+			<div class="box_contents"> {{ Artwork Image }} </div>
+		</td>
+		{{/Artwork}}
+
+		{{#Artist}}	
+		<td class="box" valign="top" rowspan="1">
+			<div class="label" >	Artist </div> <br>
+			<div class="box_contents">
+				<div class = "portrait" style="opacity:0"> {{Artist Image}}       </div> <br>
+				<div class = "artist" style="opacity:0">   {{Artist}}             </div>
+				<div class = "date" style="opacity:0">     ({{Artist Year}}) <br> {{Artist Nationality}} </div>
+			</div>
+		</td>
+		{{/Artist}}
+
+	</tr>
+	<tr>
+
+		{{#Artwork}}	
+		<td class="box" valign="top" colspan="2">
+			<div class = "label">	 Artwork Title	</div> <br><br>
+			<div class="box_contents">
+				<div class = "title">    "{{Artwork}}"       </div>
+				<div class = "date">      ({{Artwork Year}}) </div> </br>
+				<div class = "movement">  {{Movement}}       </div>
+				<div class = "note">      {{Notes}}          </div>
+		</div>
+		</td>
+		{{/Artwork}}
+
+	</tr>
+
+</table>
+
+--
+
+<table>
+	<tr>
+
+		{{#Artwork}}	
+		<td class="box" valign="top" rowspan="1">
+			<div class="label">	Artwork		</div> <br><br>
+			<div class="box_contents"> {{ Artwork Image }} </div>
+		</td>
+		{{/Artwork}}
+
+		{{#Artist}}	
+		<td class="box" valign="top" rowspan="1">
+			<div class="label">	Artist </div> <br>
+			<div class="box_contents">
+				<div class = "portrait"> {{Artist Image}}       </div> <br>
+				<div class = "artist">   {{Artist}}             </div>
+				<div class = "date">     ({{Artist Year}}) <br> {{Artist Nationality}} </div>
+			</div>
+		</td>
+		{{/Artist}}
+
+	</tr>
+	<tr>
+
+		{{#Artwork}}	
+		<td class="box" valign="top" colspan="2">
+			<div class = "label">	 Artwork Title	</div> <br><br>
+			<div class="box_contents">
+				<div class = "title">    "{{Artwork}}"       </div>
+				<div class = "date">      ({{Artwork Year}}) </div> </br>
+				<div class = "movement">  {{Movement}}       </div>
+				<div class = "note">      {{Notes}}          </div>
+		</div>
+		</td>
+		{{/Artwork}}
+
+	</tr>
+
+</table>

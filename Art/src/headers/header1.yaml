@@ -1,0 +1,51 @@
+crowdanki_uuid: 6b8dc746-76fd-11ec-9638-709cd152b732
+deck_config_uuid: 6b8dcc5a-76fd-11ec-9638-709cd152b732
+deck_configurations:
+- __type__: DeckConfig
+  autoplay: true
+  crowdanki_uuid: 6b8dcc5a-76fd-11ec-9638-709cd152b732
+  dyn: false
+  interdayLearningMix: 0
+  lapse:
+    delays:
+    - 10.0
+    leechAction: 0
+    leechFails: 99
+    minInt: 1
+    mult: 0.0
+  maxTaken: 999
+  name: GK - Art
+  new:
+    bury: false
+    delays:
+    - 1.0
+    - 10.0
+    initialFactor: 2500
+    ints:
+    - 1
+    - 4
+    - 0
+    order: 1
+    perDay: 3
+    separate: true
+  newGatherPriority: 0
+  newMix: 0
+  newPerDayMinimum: 0
+  newSortOrder: 0
+  replayq: true
+  rev:
+    bury: false
+    ease4: 1.3
+    fuzz: 0.05
+    hardFactor: 1.2
+    ivlFct: 1.0
+    maxIvl: 90
+    minSpace: 1
+    perDay: 9999
+  reviewOrder: 0
+  timer: 1
+desc: ''
+dyn: 0
+extendNew: 0
+extendRev: 0
+name: Art

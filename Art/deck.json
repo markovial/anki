@@ -1,0 +1,1089 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6b8dc746-76fd-11ec-9638-709cd152b732",
+    "deck_config_uuid": "6b8dcc5a-76fd-11ec-9638-709cd152b732",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "6b8dcc5a-76fd-11ec-9638-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 999,
+            "name": "GK - Art",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 3,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 90,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "a-lady-and-two-gentlemen.jpg!Large.jpg",
+        "a-lady-at-the-virginals-with-a-gentleman.jpg!Large.jpg",
+        "a-maid-asleep.jpg!Large.jpg",
+        "christ-in-the-house-of-martha-and-mary.jpg!Large.jpg",
+        "diana-and-her-companions.jpg!Large.jpg",
+        "girl-interrupted-at-her-music.jpg!Large.jpg",
+        "jan-vermeer-van-delft-003.jpg!Large.jpg",
+        "jan-vermeer-van-delft-the-glass-of-wine-google-art-project.jpg!Large.jpg",
+        "johannes-vermeer.jpg!Portrait.jpg",
+        "officer-and-laughing-girl.jpg!Large.jpg",
+        "screenshot-2021-11-13-172329.png",
+        "the-concert.jpg",
+        "the-girl-with-a-pearl-earring.jpg!Large.jpg",
+        "the-little-street.jpg!Large.jpg",
+        "the-milkmaid.jpg!Large.jpg",
+        "the-procuress-1656.jpg!Large.jpg",
+        "view-on-delft.jpg!Large.jpg",
+        "woman-reading-a-letter-woman-in-blue-reading-a-letter.jpg!Large.jpg",
+        "woman-with-a-lute.jpg!Large.jpg",
+        "young-woman-with-a-pearl-necklace.jpg!Large.jpg"
+    ],
+    "name": "Art",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "css": "/* ----- START : Base Css ----- */\n\nhtml {\n\toverflow   : scroll;\n\toverflow-x : hidden;\n}\n\n.card{\n\tbackground-color : transparent;\n\tmargin           : auto;\n\tmax-width        : auto;\n}\n\n:root {\n\t--label-color      : #181616;\n\t--label-font-color : #fff;\n\t--label-font-size  : 14px;\n\t--box-bg-color     : #b9b9b9;\n\t--box-font-color   : #181616;\n\t--box-font-size    : 22px;\n\t--text-font        : Garamond, Times New Roman, serif;\n}\n\n@media screen and (max-width: 600px){\n\n\ttr { display: table;  width:100%;}\n\ttd { display: table-row;  }\n\t\n\t/* android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n\ntable {\n\tdisplay         : inline-table;\n\twidth           : 100%;\n\tpadding         : 0px 0px 0px 0px;\n\tmargin          : 0px 0px 0px 0px;\n\tborder-spacing  : 10px;\n\tborder-collapse : separate;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n.replay-button svg {\n\twidth  : 2rem;\n\theight : 2rem;\n}\n\n.replay-button svg circle {\n\tfill    : transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n\tfill    : black;\n\tstroke : black;\n}\n\n.box\n{\n\tpadding          : 0px 0px 30px 0px;\n\tmargin           : 0px;\n\tmin-height       : 300px;\n\twidth            : auto;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--box-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : var(--box-bg-color);\n\n}\n\n.box_contents\n{\n\tpadding : 0px 0px 40px 0px;\n\tmargin  : 0px 20px 0px 20px;\n\tborder  : 0px solid black;\n}\n\n.label\n{\n\twidth            : auto;\n\tpadding          : 8px 10px 8px 10px;\n\tfloat            : left;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--label-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : var(--label-font-color);\n\tbackground-color : var(--label-color);\n}\n\n/* ----- END : Base Css ----- */\n\n/* ----- START : Deck Specific Css ----- */\n\n.box\n{\n\twidth            : 50%;\n}\n.artwork\n{\n\twidth        : 100%;\n\theight       : auto;\n\tborder       : 0px;\n\tpadding      : 0px;\n\tmargin       : 0px;\n\tmargin-left  : auto;\n\tmargin-right : auto;\n\tdisplay      : block;\n\ttext-align   : center;\n}\n\n.portrait\n{\n\twidth        : 150px;\n\theight       : auto;\n\tborder       : 0px;\n\tpadding      : 10px 0px 0px 0px;\n\tmargin       : 0px;\n\tmargin-left  : auto;\n\tmargin-right : auto;\n\tdisplay      : block;\n\ttext-align   : center;\n}\n\n.movement {\n\tfont-family      : var(--text-font);\n\tfont-size        : 18px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-transform   : uppercase;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n}\n\n.title {\n\tfont-family      : var(--text-font);\n\tfont-size        : 20px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 500;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n}\n\n.date {\n\tfont-family      : var(--text-font);\n\tfont-size        : 14px;\n\tfont-style       : italic;\n\tfont-variant     : normal;\n\tfont-weight      : 500;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n}\n\n.note\n{\n\tfont-family      : var(--text-font);\n\tfont-size        : 14px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n}\n\n.artist {\n\tfont-family      : var(--text-font);\n\tfont-size        : 24px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-transform   : uppercase;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n}\n\n\n/* ----- END : Deck Specific Css ----- */\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artist",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artist Image",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artist Year",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artist Nationality",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artist Portrait Source",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artwork",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artwork Image",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artwork Year",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Artwork Image Source",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Movement",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Notes",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "GK - Art ( new )",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<table>\n\t<tr>\n\n\t\t{{#Artwork}}\t\n\t\t<td class=\"box\" valign=\"top\" rowspan=\"1\">\n\t\t\t<div class=\"label\">\tArtwork\t\t</div> <br><br>\n\t\t\t<div class=\"box_contents\"> {{ Artwork Image }} </div>\n\t\t</td>\n\t\t{{/Artwork}}\n\n\t\t{{#Artist}}\t\n\t\t<td class=\"box\" valign=\"top\" rowspan=\"1\">\n\t\t\t<div class=\"label\">\tArtist </div> <br>\n\t\t\t<div class=\"box_contents\">\n\t\t\t\t<div class = \"portrait\"> {{Artist Image}}       </div> <br>\n\t\t\t\t<div class = \"artist\">   {{Artist}}             </div>\n\t\t\t\t<div class = \"date\">     ({{Artist Year}}) <br> {{Artist Nationality}} </div>\n\t\t\t</div>\n\t\t</td>\n\t\t{{/Artist}}\n\n\t</tr>\n\t<tr>\n\n\t\t{{#Artwork}}\t\n\t\t<td class=\"box\" valign=\"top\" colspan=\"2\">\n\t\t\t<div class = \"label\">\t Artwork Title\t</div> <br><br>\n\t\t\t<div class=\"box_contents\">\n\t\t\t\t<div class = \"title\">    \"{{Artwork}}\"       </div>\n\t\t\t\t<div class = \"date\">      ({{Artwork Year}}) </div> </br>\n\t\t\t\t<div class = \"movement\">  {{Movement}}       </div>\n\t\t\t\t<div class = \"note\">      {{Notes}}          </div>\n\t\t</div>\n\t\t</td>\n\t\t{{/Artwork}}\n\n\t</tr>\n\n</table>",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Painting -> Artist",
+                    "ord": 0,
+                    "qfmt": "<table>\n\t<tr>\n\n\t\t{{#Artwork}}\t\n\t\t<td class=\"box\" valign=\"top\" rowspan=\"1\">\n\t\t\t<div class=\"label\">\tArtwork\t\t</div> <br><br>\n\t\t\t<div class=\"box_contents\"> {{ Artwork Image }} </div>\n\t\t</td>\n\t\t{{/Artwork}}\n\n\t\t{{#Artist}}\t\n\t\t<td class=\"box\" valign=\"top\" rowspan=\"1\">\n\t\t\t<div class=\"label\" >\tArtist </div> <br>\n\t\t\t<div class=\"box_contents\">\n\t\t\t\t<div class = \"portrait\" style=\"opacity:0\"> {{Artist Image}}       </div> <br>\n\t\t\t\t<div class = \"artist\" style=\"opacity:0\">   {{Artist}}             </div>\n\t\t\t\t<div class = \"date\" style=\"opacity:0\">     ({{Artist Year}}) <br> {{Artist Nationality}} </div>\n\t\t\t</div>\n\t\t</td>\n\t\t{{/Artist}}\n\n\t</tr>\n\t<tr>\n\n\t\t{{#Artwork}}\t\n\t\t<td class=\"box\" valign=\"top\" colspan=\"2\">\n\t\t\t<div class = \"label\">\t Artwork Title\t</div> <br><br>\n\t\t\t<div class=\"box_contents\">\n\t\t\t\t<div class = \"title\">    \"{{Artwork}}\"       </div>\n\t\t\t\t<div class = \"date\">      ({{Artwork Year}}) </div> </br>\n\t\t\t\t<div class = \"movement\">  {{Movement}}       </div>\n\t\t\t\t<div class = \"note\">      {{Notes}}          </div>\n\t\t</div>\n\t\t</td>\n\t\t{{/Artwork}}\n\n\t</tr>\n\n</table>",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Diana and her Companions",
+                "<img src=\"diana-and-her-companions.jpg!Large.jpg\">",
+                "c.1653 - c.1654",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/diana-and-her-companions\">https://www.wikiart.org/en/johannes-vermeer/diana-and-her-companions</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "ozxJ:M`e#/",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Saint Praxedis",
+                "<img src=\"screenshot-2021-11-13-172329.png\">",
+                "c.1655",
+                "https://www.wikiart.org/en/johannes-vermeer/saint-praxedis",
+                "Baroque",
+                ""
+            ],
+            "guid": "kir`yP^f.G",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Christ in the House of Martha and Mary",
+                "<img src=\"christ-in-the-house-of-martha-and-mary.jpg!Large.jpg\">",
+                "1654",
+                "https://www.wikiart.org/en/johannes-vermeer/christ-in-the-house-of-martha-and-mary",
+                "Baroque",
+                ""
+            ],
+            "guid": "ylu4tw(L(H",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "The Procuress",
+                "<img src=\"the-procuress-1656.jpg!Large.jpg\">",
+                "1656",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/the-procuress-1656\">https://www.wikiart.org/en/johannes-vermeer/the-procuress-1656</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "CI+a{vf{f(",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Girl Reading a Letter at an Open Window",
+                "<img src=\"jan-vermeer-van-delft-003.jpg!Large.jpg\">",
+                "1657",
+                "https://www.wikiart.org/en/johannes-vermeer/girl-reading-a-letter-at-an-open-window-1657",
+                "Baroque",
+                ""
+            ],
+            "guid": "r$R2q}OsNe",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "A maid asleep",
+                "<img src=\"a-maid-asleep.jpg!Large.jpg\">",
+                "c.1656 - c.1657",
+                "https://www.wikiart.org/en/johannes-vermeer/a-maid-asleep",
+                "Baroque",
+                ""
+            ],
+            "guid": "fF*WC0*Wn<",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Officer and Laughing Girl",
+                "<img src=\"officer-and-laughing-girl.jpg!Large.jpg\">",
+                "c.1657",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/officer-and-laughing-girl\">https://www.wikiart.org/en/johannes-vermeer/officer-and-laughing-girl</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "m$x6S;>@bZ",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "A Lady and Two Gentlemen",
+                "<img src=\"a-lady-and-two-gentlemen.jpg!Large.jpg\">",
+                "c.1659",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/a-lady-and-two-gentlemen\">https://www.wikiart.org/en/johannes-vermeer/a-lady-and-two-gentlemen</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "Bt_c`WB?<]",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "The Little Street",
+                "<img src=\"the-little-street.jpg!Large.jpg\">",
+                "c.1658 - c.1660",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/the-little-street\">https://www.wikiart.org/en/johannes-vermeer/the-little-street</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "wa[aFeb@yr",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "The glass of wine",
+                "<img src=\"jan-vermeer-van-delft-the-glass-of-wine-google-art-project.jpg!Large.jpg\">",
+                "c.1658 - c.1660",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/the-glass-of-wine\">https://www.wikiart.org/en/johannes-vermeer/the-glass-of-wine</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "I%EdU@x+UE",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "The Milkmaid",
+                "<img src=\"the-milkmaid.jpg!Large.jpg\">",
+                "c.1660",
+                "https://www.wikiart.org/en/johannes-vermeer/the-milkmaid",
+                "Baroque",
+                ""
+            ],
+            "guid": "uFh@xto;Cg",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Girl interrupted at her music",
+                "<img src=\"girl-interrupted-at-her-music.jpg!Large.jpg\">",
+                "c.1658 - c.1661",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/girl-interrupted-at-her-music\">https://www.wikiart.org/en/johannes-vermeer/girl-interrupted-at-her-music</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "wjm<dO%lt)",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "View of Delft",
+                "<img src=\"view-on-delft.jpg!Large.jpg\">",
+                "c.1660 - c.1661",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/view-on-delft\">https://www.wikiart.org/en/johannes-vermeer/view-on-delft</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "qXD*op;>jm",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Young Woman with a Pearl Necklace",
+                "<img src=\"young-woman-with-a-pearl-necklace.jpg!Large.jpg\">",
+                "c.1662",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/young-woman-with-a-pearl-necklace\">https://www.wikiart.org/en/johannes-vermeer/young-woman-with-a-pearl-necklace</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "HfH;{1RbUK",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Woman reading a letter",
+                "<img src=\"woman-reading-a-letter-woman-in-blue-reading-a-letter.jpg!Large.jpg\">",
+                "c.1662 - c.1663",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/woman-reading-a-letter-woman-in-blue-reading-a-letter\">https://www.wikiart.org/en/johannes-vermeer/woman-reading-a-letter-woman-in-blue-reading-a-letter</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "jk21^[ztJ?",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "The Concert",
+                "<img src=\"the-concert.jpg\">",
+                "c.1664",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/the-concert\">https://www.wikiart.org/en/johannes-vermeer/the-concert</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "o8.Dn4xGHz",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "Woman with a lute",
+                "<img src=\"woman-with-a-lute.jpg!Large.jpg\">",
+                "c.1662 - c.1664",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/woman-with-a-lute\">https://www.wikiart.org/en/johannes-vermeer/woman-with-a-lute</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "E=_/hAjC{|",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "A Lady at the Virginals with a Gentleman",
+                "<img src=\"a-lady-at-the-virginals-with-a-gentleman.jpg!Large.jpg\">",
+                "1662 - 1665",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/a-lady-at-the-virginals-with-a-gentleman-1665\">https://www.wikiart.org/en/johannes-vermeer/a-lady-at-the-virginals-with-a-gentleman-1665</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "xmGO,`g;CH",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "The Girl with a Pearl Earring",
+                "<img src=\"the-girl-with-a-pearl-earring.jpg!Large.jpg\">",
+                "c.1665",
+                "<a href=\"https://www.wikiart.org/en/johannes-vermeer/the-girl-with-a-pearl-earring\">https://www.wikiart.org/en/johannes-vermeer/the-girl-with-a-pearl-earring</a>",
+                "Baroque",
+                ""
+            ],
+            "guid": "CnJT[g{+U,",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "this is a test field",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "Qa>U{/TK^D",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "asdf",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "p;1c,`pkm,",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "sdfg-wasedited",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "ctk&q(o$q4",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "sdfg2",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "Fg&2f;k#rg",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "g[6oof^5]a",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "Be9&$6c}`1",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "l_^?[+7Tou",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "t]#!^;96X?",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "l0G;l8RzMm",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "k}MKjpkyS+",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "Eot79OMI|,",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "G@5;L?l-um",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "OPOY>ME2*u",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "Kr[.Ul4$e6",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "vOiRhC5Uf6",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "kQ|&<v$|,y",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "DQgV9Y3zf]",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "dz(R8.GJ<j",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "j(&El:t45N",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "I6k@NyS/md",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "xkN)sP9T]0",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Johannes Vermeer",
+                "<img src=\"johannes-vermeer.jpg!Portrait.jpg\">",
+                "1632 - 1675",
+                "Delft, Netherlands",
+                "https://www.wikiart.org/en/johannes-vermeer",
+                "",
+                "",
+                "",
+                "",
+                "Baroque",
+                ""
+            ],
+            "guid": "wp]qw3a,w1",
+            "note_model_uuid": "6b8ed05a-76fd-11ec-9638-709cd152b732",
+            "tags": [
+                "Art::Baroque::Vermeer"
+            ]
+        }
+    ]
+}

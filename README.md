@@ -8,19 +8,21 @@
 ## Export your deck
 
 How does a deck go from anki to git ? :
-|               |                          |
-| ------------- | :-------------           |
-| CrowdAnki     | Export Deck as json file |
-| Brain-Brew    | Convert json into csv    |
-| LibreOffice   | Edit fields in csv       |
-| Git           | Publish                  |
+
+|               |                          | |
+| :-- | :--          | :-- |
+| CrowdAnki     | Export Deck as json file | Export as CrowdAnki JSON representation|
+| Brain-Brew    | Unpack json into csv    | brainbrew init <br /> brainbrew run recipes/anki_to_source.yaml|
+||||
+| LibreOffice   | Edit fields in csv       | data/src/deckname.csv|
+| Git           | Publish                  | git push |
 
 ## Import a new deck
-|               |                            |
-| ------------- | :-------------             |
-| Git           | Get from github            |
-| Brain-Brew    | Convert csv to json        |
-| CrowdAnki     | Import Deck from json file |
+|               |                            | |
+| ------------- | :-------------             | |
+| Git           | Get from github            | git pull |
+| Brain-Brew    | Convert csv to json        | brainbrew run recipes/source_to_anki.yaml|
+| CrowdAnki     | Import Deck from json file | Import from disk (import build folder)|
 
 ## Making Contributions
 
@@ -34,10 +36,10 @@ showing one possible workflow.
 
 ## Dependencies
 
-[Python 3.7+](https://www.python.org/) \
-[pip](https://pypi.org/project/pip/) \
-[pipenv 2021.11.23+](pypi.org/project/pipenv/) \
-[Brain-Brew 0.3.6+](github.com/ohare93/brain-brew) \
+[Python 3.7+](https://www.python.org/)
+[pip](https://pypi.org/project/pip/)
+[pipenv 2021.11.23+](pypi.org/project/pipenv/)
+[Brain-Brew 0.3.6+](github.com/ohare93/brain-brew)
 [CrowdAnki Plugin](ankiweb.net/shared/info/1788670778)
 
 
@@ -82,14 +84,25 @@ json or within Anki directly.
 
 I had problems with the brain-brew installation. I installed it fine , but I
 couldnt run the init from the commandline , with error being command not found.
-I got around it by doing : $HOME/.local/bin/brainbrew init , but a longer term
-soulution would be to add this directory to path. Ill do it later though ,
-cause for now its working ...
+I got around it by doing : 
 
+$HOME/.local/bin/brainbrew init 
 
+, but a longer term soulution would be to add this directory to path. Ill do it
+later though , cause for now its working ...
 
 TO CREATE A NEW COLLABORATABLE ANKI PROJECT
 
 Export Deck as crowdanki file
 run brainbrew init <folder_name> in folder
 profit
+
+
+Export to folder : $HOME/Git/anki/
+Import from folder :  $HOME/Git/anki/Art/build
+
+$HOME/.local/bin/brainbrew init $HOME/Git/anki/Art
+$HOME/.local/bin/brainbrew run $HOME/Git/anki/Art/recipes/source_to_anki.yaml
+
+brainbrew init
+it initalizes inside the folder that you are running the command from , so make sure you have cd'd into the right place before running the command.

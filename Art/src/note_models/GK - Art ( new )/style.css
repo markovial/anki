@@ -1,0 +1,206 @@
+/* ----- START : Base Css ----- */
+
+html {
+	overflow   : scroll;
+	overflow-x : hidden;
+}
+
+.card{
+	background-color : transparent;
+	margin           : auto;
+	max-width        : auto;
+}
+
+:root {
+	--label-color      : #181616;
+	--label-font-color : #fff;
+	--label-font-size  : 14px;
+	--box-bg-color     : #b9b9b9;
+	--box-font-color   : #181616;
+	--box-font-size    : 22px;
+	--text-font        : Garamond, Times New Roman, serif;
+}
+
+@media screen and (max-width: 600px){
+
+	tr { display: table;  width:100%;}
+	td { display: table-row;  }
+	
+	/* android TTS shows the text inline instead of a play button*/
+	.audio
+	{ 
+		display    : none;
+		visibility : hidden;
+	}
+}
+
+table {
+	display         : inline-table;
+	width           : 100%;
+	padding         : 0px 0px 0px 0px;
+	margin          : 0px 0px 0px 0px;
+	border-spacing  : 10px;
+	border-collapse : separate;
+}
+
+.audio
+{
+	display : inline;
+}
+
+.replay-button svg {
+	width  : 2rem;
+	height : 2rem;
+}
+
+.replay-button svg circle {
+	fill    : transparent;
+	stroke : transparent;
+}
+.replay-button svg path {
+	fill    : black;
+	stroke : black;
+}
+
+.box
+{
+	padding          : 0px 0px 30px 0px;
+	margin           : 0px;
+	min-height       : 300px;
+	width            : auto;
+	font-family      : var(--text-font);
+	font-size        : var(--box-font-size);
+	font-style       : normal;
+	font-variant     : normal;
+	text-align       : center;
+	color            : var(--box-font-color);
+	background-color : var(--box-bg-color);
+
+}
+
+.box_contents
+{
+	padding : 0px 0px 40px 0px;
+	margin  : 0px 20px 0px 20px;
+	border  : 0px solid black;
+}
+
+.label
+{
+	width            : auto;
+	padding          : 8px 10px 8px 10px;
+	float            : left;
+	font-family      : var(--text-font);
+	font-size        : var(--label-font-size);
+	font-style       : normal;
+	font-variant     : normal;
+	font-weight      : 700;
+	text-align       : center;
+	text-transform   : uppercase;
+	color            : var(--label-font-color);
+	background-color : var(--label-color);
+}
+
+/* ----- END : Base Css ----- */
+
+/* ----- START : Deck Specific Css ----- */
+
+.box
+{
+	width            : 50%;
+}
+.artwork
+{
+	width        : 100%;
+	height       : auto;
+	border       : 0px;
+	padding      : 0px;
+	margin       : 0px;
+	margin-left  : auto;
+	margin-right : auto;
+	display      : block;
+	text-align   : center;
+}
+
+.portrait
+{
+	width        : 150px;
+	height       : auto;
+	border       : 0px;
+	padding      : 10px 0px 0px 0px;
+	margin       : 0px;
+	margin-left  : auto;
+	margin-right : auto;
+	display      : block;
+	text-align   : center;
+}
+
+.movement {
+	font-family      : var(--text-font);
+	font-size        : 18px;
+	font-style       : normal;
+	font-variant     : normal;
+	font-weight      : 700;
+	text-transform   : uppercase;
+	text-align       : center;
+	color            : var(--box-font-color);
+	background-color : transparent;
+	padding          : 0px;
+	margin           : 0px;
+}
+
+.title {
+	font-family      : var(--text-font);
+	font-size        : 20px;
+	font-style       : normal;
+	font-variant     : normal;
+	font-weight      : 500;
+	text-align       : center;
+	color            : var(--box-font-color);
+	background-color : transparent;
+	padding          : 0px;
+	margin           : 0px;
+}
+
+.date {
+	font-family      : var(--text-font);
+	font-size        : 14px;
+	font-style       : italic;
+	font-variant     : normal;
+	font-weight      : 500;
+	text-align       : center;
+	color            : var(--box-font-color);
+	background-color : transparent;
+	padding          : 0px;
+	margin           : 0px;
+}
+
+.note
+{
+	font-family      : var(--text-font);
+	font-size        : 14px;
+	font-style       : normal;
+	font-variant     : normal;
+	text-align       : center;
+	color            : var(--box-font-color);
+	background-color : transparent;
+	padding          : 0px;
+	margin           : 0px;
+}
+
+.artist {
+	font-family      : var(--text-font);
+	font-size        : 24px;
+	font-style       : normal;
+	font-variant     : normal;
+	font-weight      : 700;
+	text-transform   : uppercase;
+	text-align       : center;
+	color            : var(--box-font-color);
+	background-color : transparent;
+	padding          : 0px;
+	margin           : 0px;
+}
+
+
+/* ----- END : Deck Specific Css ----- */
