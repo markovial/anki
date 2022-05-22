@@ -53,14 +53,9 @@ brainbrew --version
 The above commands also help to validate that everything is installed and
 working correctly.
 
-
 ## Folder and File structure :
 
-
-
-
 **build** 
-
 
 * **build** : Contains folders than can be imported by or are exported by CrowdAnki.
 These folders contain all the deck data represented as a json file. The
@@ -90,18 +85,24 @@ $HOME/.local/bin/brainbrew init
 , but a longer term soulution would be to add this directory to path. Ill do it
 later though , cause for now its working ...
 
-TO CREATE A NEW COLLABORATABLE ANKI PROJECT
+## TO CREATE A NEW COLLABORATABLE ANKI PROJECT
 
-Export Deck as crowdanki file
-run brainbrew init <folder_name> in folder
-profit
-
+1. Export Deck as crowdanki file
+1. run brainbrew init <folder_name> in folder
+1. ... ?
+1. profit
 
 Export to folder : $HOME/Git/anki/
 Import from folder :  $HOME/Git/anki/Art/build
 
+
+```
 $HOME/.local/bin/brainbrew init $HOME/Git/anki/Art
 $HOME/.local/bin/brainbrew run $HOME/Git/anki/Art/recipes/source_to_anki.yaml
+```
 
+```
 brainbrew init
+```
+
 it initalizes inside the folder that you are running the command from , so make sure you have cd'd into the right place before running the command.
