@@ -1,4 +1,25 @@
-## My Current List of Anki Plugins
+## My Current Anki Plugins
+
+|                                                                              |                                       |
+| :--                                                                          | :--                                   |
+| [Add Table                     ](https://ankiweb.net/shared/info/1237621971) | Add tables to anki cards              |
+| [Advanced Browser              ](https://ankiweb.net/shared/info/874215009)  | Add column sorting                    |
+| [AwesomeTTS                    ](https://ankiweb.net/shared/info/1436550454) | Add audio to anki cards               |
+| [Browser TableEditor           ](https://ankiweb.net/shared/info/831846358)  | Display Table and editor side by side |
+| [Colorful Hierarchical Tags    ](https://ankiweb.net/shared/info/594329229)  | Add hirearchical tags                 |
+| [CrowdAnki                     ](https://ankiweb.net/shared/info/1788670778) | Import and export deck as JSON        |
+| [Custom Background             ](https://ankiweb.net/shared/info/1210908941) | Rice Anki UI                          |
+| [Duplicate and Reorder         ](https://ankiweb.net/shared/info/1114271285) | Create cards by duplicating existing  |
+| [Enhance main window           ](https://ankiweb.net/shared/info/877182321)  | Rice Anki UI                          |
+| [Highlight Search Results      ](https://ankiweb.net/shared/info/225180905)  | Highlight search results              |
+| [Mini Format pack              ](https://ankiweb.net/shared/info/295889520)  | More formatting options               |
+| [Minimal Flat Big Buttons      ](https://ankiweb.net/shared/info/1042429613) | Rice Anki UI                          |
+| [More Deck stats and time left ](https://ankiweb.net/shared/info/1556734708) | Display time stats on home screen     |
+| [Remaining time for anki 21    ](https://ankiweb.net/shared/info/1508357010) | Display time stats on review screen   |
+| [Review Heatmap                ](https://ankiweb.net/shared/info/1771074083) | Display heatmap for reviews           |
+| [Search Bar                    ](https://ankiweb.net/shared/info/1251668918) | Add search bar to reviewer and editor |
+| [Vim answer shortcuts          ](https://ankiweb.net/shared/info/1197299782) | Vim shortcuts to answer               |
+
 
 ## NOTES on COLLABORATION
 
@@ -25,31 +46,4 @@ Current things that irk me :
 * [BrainBrew](https://github.com/ohare93/brain-brew) : No idea on what exactly the yaml recipies are ... ?
 * [Anki Remote Decks](https://github.com/c-okelly/anki-remote-decks) : Creates a new seperate class of deck 'remote decks' and all remote decks are subdecks. Cannot rename. Not a fan.
 
-|                                                                                     |                                        |
-| :--                                                                                 | :--                                    |
-| [Advanced Browser](https://ankiweb.net/shared/info/874215009)                       |                                        |
-| [Anki Zoom](https://ankiweb.net/shared/info/538879081)                              |                                        |
-| [AwesomeTTS](https://ankiweb.net/shared/info/1436550454)                            |                                        |
-| [Change Interface Font]()                                                           |                                        |
-| [Custom Background Image and Gear Icon](https://ankiweb.net/shared/info/1210908941) |                                        |
-| [Customize Sidebar]()                                                               |                                        |
-| [Enhance main window](https://ankiweb.net/shared/info/877182321)                    |                                        |
-| [Hierarchical Tags 2](https://ankiweb.net/shared/info/594329229)                    |                                        |
-| [Image Occlusoin Enchanged for Anki 21](https://ankiweb.net/shared/info/1374772155) |                                        |
-| [Japanese Support](https://ankiweb.net/shared/info/3918629684)                      |                                        |
-| [Kanji Colorizer stroke order diagrams](https://ankiweb.net/shared/info/1964372878) |                                        |
-| [Mini Format pack](https://ankiweb.net/shared/info/295889520)                       |                                        |
-| [Minimal Flat Big Buttons](https://ankiweb.net/shared/info/1042429613)              |                                        |
-| [More Deck stats and time left](https://ankiweb.net/shared/info/1556734708)         |                                        |
-| [Remaining time for anki 21](https://ankiweb.net/shared/info/1508357010)            |                                        |
-| [Review Heatmap](https://github.com/glutanimate/review-heatmap#installation)        |                                        |
-| [Vim answer shortcuts](https://ankiweb.net/shared/info/1197299782)                  |                                        |
-| [No Distractions](https://ankiweb.net/shared/info/1049863218)                       | Remove Unneccesary junk from screen    |
-| [Highlight Search Results](https://ankiweb.net/shared/info/225180905)               |                                        |
-| [Collapsible Fields](https://ankiweb.net/shared/info/1896168623)                    |                                        |
-| [Search Bar](https://ankiweb.net/shared/info/1251668918)                            | Adds search bar to reviewer and editor |
-| [CrowdAnki](https://ankiweb.net/shared/info/1788670778)                             | Import and export deck as JSON         |
-| [Duplicate and Reorder](https://ankiweb.net/shared/info/1114271285)                 | Duplicate existing cards               |
-| [Browser](https://ankiweb.net/shared/info/831846358)                                | Table and editor side by side          |
-| [Add Table](https://ankiweb.net/shared/info/1237621971)                             |                                        |
 
