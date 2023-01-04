@@ -1,0 +1,1605 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75ef7360-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75ef754a-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "00 : Basics",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75ef8904-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75ef8a44-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "ICLH_Diagram_Batch_01_04-GradientDescent-WHITEBG_0.png",
+                "Learning Rate.jpg",
+                "model-over-fitting.png",
+                "saddle_point_evaluation_optimizers.gif"
+            ],
+            "name": "01 : Machine Learning",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Training Set",
+                        "is the set of data that is used to train and make the model learn the hidden features/patterns in the data.",
+                        "Data for the Test , Training and Validation Sets should come from the same distribution.<br>You can't take more data after the fact and just add then to the test set.<br>You also can't train on one type of data and test on another type of data. E.g train on loan prediction for high income ZIP code and test on low income ZIP code.",
+                        "",
+                        "<a href=\"https://www.geeksforgeeks.org/training-vs-testing-vs-validation-sets/\">https://www.geeksforgeeks.org/training-vs-testing-vs-validation-sets/</a>"
+                    ],
+                    "guid": "m|7i?PTmO#",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Validation Set",
+                        "is a set of data, separate from the training set, that is used to validate our model performance during training.",
+                        "<div>It is also called the dev set or the cross-validation set.</div><div><br></div><div>Good benchmarks for set sizes :</div><div><ul><li>data &lt; 10,000 : 70% train , 30% test</li><li>data &lt; 10,000 : 60% train , 20 dev , 20% test</li><li>data &gt; 1,000,000 : 98% train , 1%&nbsp; dev , 1% test</li></ul></div><div><br></div><div>This validation process gives information that helps us tune the model’s hyperparameters and configurations accordingly. It is like a critic telling us whether the training is moving in the right direction or not.</div><div><br></div><div>The model is trained on the training set, and, simultaneously, the model evaluation is performed on the validation set after every epoch.</div><div><br></div><div>The main idea of splitting the dataset into a validation set is to prevent our model from overfitting i.e., the model becomes really good at classifying the samples in the training set but cannot generalize and make accurate classifications on the data it has not seen before.&nbsp;<br></div>",
+                        "",
+                        "<a href=\"https://www.v7labs.com/blog/train-validation-test-set\">https://www.v7labs.com/blog/train-validation-test-set</a>"
+                    ],
+                    "guid": "k44p@X;;KF",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Test Set",
+                        "is a separate set of data used to test the model after completing the training.",
+                        "",
+                        "",
+                        "<a href=\"https://www.v7labs.com/blog/train-validation-test-set\">https://www.v7labs.com/blog/train-validation-test-set</a>"
+                    ],
+                    "guid": "ClLw3cE!h4",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "K-Fold Cross-Validation",
+                        "is a technique for data splitting, where a model is trained and evaluated “K” times on different samples.",
+                        "In k-folds cross-validation, data is split into k equally sized subsets,\n which are also called “folds.” One of the k-folds will act as the test \nset, also known as the holdout set or validation set, and the remaining \nfolds will train the model. This process repeats until each of the fold \nhas acted as a holdout fold. After each evaluation, a score is retained \nand when all iterations have completed, the scores are averaged to \nassess the performance of the overall model.",
+                        "<img alt=\"https://www.researchgate.net/profile/Johar-Ashfaque-Aatqb/publication/332370436/figure/fig1/AS:746775958806528@1555056671117/Diagram-of-k-fold-cross-validation-with-k-10-Image-from-Karl-Rosaen-Log.ppm\" src=\"https://www.researchgate.net/profile/Johar-Ashfaque-Aatqb/publication/332370436/figure/fig1/AS:746775958806528@1555056671117/Diagram-of-k-fold-cross-validation-with-k-10-Image-from-Karl-Rosaen-Log.ppm\">",
+                        ""
+                    ],
+                    "guid": "Bn5ZQ{b`Oh",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Underfitting",
+                        "is when our model is not complex enough to accurately represent the data and misses trends in the data set.",
+                        "<div><u><b>Bias</b></u> is a measure of our models overall accuracy.</div><div><u><b>Underfitting</b></u> occurs when a model has high bias.</div><div><ul><li>Underfitting occurs when a model is too simple, which can be a result of a model needing more training time, more input features, or less regularization.</li><li>High Bias , High Variance : Neither accurate , nor generalizing</li></ul></div>To fix Underfitting (high bias) try :<br><ul><li>Decrease regularization<br></li><li>Longer training time<br></li><li>Bigger network</li><li>Different architechture</li></ul>",
+                        "<img alt=\"visual representation of underfit model, an optimal model, and an overfit model\" src=\"model-over-fitting.png\">",
+                        "<a href=\"https://www.ibm.com/cloud/learn/underfitting\">https://www.ibm.com/cloud/learn/underfitting</a>"
+                    ],
+                    "guid": "QG@fkiwZDP",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Overfitting",
+                        "is when a model fits against the training data too well and does not perform accurately against unseen data.",
+                        "<div><u><b>Variance</b></u>&nbsp;is a measure of how well our model generalizes.<br></div><div><u><b>Overfitting</b></u>&nbsp;occurs when a model has high variance.</div><div><br></div><div>Overfitting is the opposite of underfitting, occurring when the model has been overtrained or when it contains too much complexity, resulting in high error rates on test data.<br></div><div><br></div>To fix Overfitting (high bias) try :<br><ul><li>Getting more training data<br></li><li>Regularization</li><li>Different architechture</li></ul>",
+                        "<img alt=\"visual representation of underfit model, an optimal model, and an overfit model\" src=\"model-over-fitting.png\">",
+                        "<a href=\"https://www.ibm.com/cloud/learn/overfitting\">https://www.ibm.com/cloud/learn/overfitting</a>"
+                    ],
+                    "guid": "y(U|Wnt]$I",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "F1 Score",
+                        "is the average of precision and recall.",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "P}csYWqF-T",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sigmoid",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "oFiJ)x,X:F",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Tanh",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "J`RmvQhf_",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ReLU",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "myjlO5,9$W",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ReLU (Leaky)",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "rJgF31+dR;",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Softmax",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "A+=TeHEzIv",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Argmax",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "rq!x=]5]^z",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "GeLU",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "h^159.9?vy",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Bayes Error",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "HG`V7M`1Sb",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Statistical Parity",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "t/UjP.L>v2",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Error Rate Parity",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "Oe-+N[_{)o",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sample Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "dv1y8d:|Tp",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Exclusion Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "uD*f9A=b%-",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Automation Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "i|_AbJyL$x",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Observer Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "wJl,!2FbdR",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Availability Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "E-taM_K8K7",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prejudice Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "FB!fYvu{Ki",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Avoidable Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "Fjg7?xP{Xn",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Pareto Efficiency",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "J6uJM~&~|I",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Satisfying Condition",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "A_Y5k[}gCO",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Optimizing Condition",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "v>+`#sywvJ",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Precision",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "zfdkhX!1YM",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Recall",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "ku%Mj^5|2!",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L1 Regularization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "NN.Vm_YklJ",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Accuracy"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "L2 Regularization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "jk_9E^&Rmm",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Accuracy"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Weight Decay",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "AY=XF*wD},",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Accuracy"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Regularization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "B9MrYo2d=r",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Accuracy"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Normalization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "PNgs]gD?C%",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Speed"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Input Normalization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "emG=ad,wd;",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Speed"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Batch Normalization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "wNm%Ph3dp?",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Speed"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Layer Normalization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "p^zrFw:Iyy",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Speed"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Explainability",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "me@@#|rjQ@",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Robustness",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "iYyO{UME)H",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Fairness",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "A&yXB#C62;",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Transparency",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "d<c$`7->>7",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Differential Privacy",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "EOcv+x-K`Z",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Gradient Descent",
+                        "",
+                        "",
+                        "<img alt=\"Diagram of gradient descent\" src=\"ICLH_Diagram_Batch_01_04-GradientDescent-WHITEBG_0.png\">",
+                        "<a href=\"https://www.ibm.com/cloud/learn/gradient-descent\">https://www.ibm.com/cloud/learn/gradient-descent</a>"
+                    ],
+                    "guid": "p!AR?l>{vG",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Mini-batch&nbsp;gradient descent",
+                        "",
+                        "",
+                        "",
+                        "Mini-batch&nbsp;gradient descent&nbsp;combines concepts from both batch gradient \ndescent and stochastic gradient descent. It splits the&nbsp;training \ndataset&nbsp;into small&nbsp;batch sizes&nbsp;and performs updates on each of those \nbatches. This approach strikes a balance between the computational \nefficiency of&nbsp;batch&nbsp;gradient descent&nbsp;and the speed of \nstochastic&nbsp;gradient descent."
+                    ],
+                    "guid": "i:l}=t2`+G",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Batch&nbsp;gradient descent",
+                        "",
+                        "<div>Batch&nbsp;gradient descent&nbsp;sums the error for each point in a training set, updating the model only after all&nbsp;training examples&nbsp;have been evaluated. This process referred to as a training epoch.</div> <div>While this batching provides computation efficiency, it can still have a long processing time for large training datasets as it still needs to store all of the data into memory. Batch gradient descent also usually produces a stable error gradient and convergence, but sometimes that convergence point isn’t the most ideal, finding the local minimum versus the global one.</div>",
+                        "",
+                        "<a href=\"https://www.ibm.com/cloud/learn/gradient-descent\">https://www.ibm.com/cloud/learn/gradient-descent</a>"
+                    ],
+                    "guid": "gUbE9-*jj9",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Stochastic&nbsp;gradient descent",
+                        "",
+                        "Stochastic&nbsp;gradient descent&nbsp;(SGD) runs a training epoch for each example\n within the dataset and it updates each&nbsp;training example's parameters \none at a time. Since you only need to hold one training example, they \nare easier to store in memory. While these frequent updates can offer \nmore detail and speed, it can result in losses in computational \nefficiency when compared to batch&nbsp;gradient descent. Its frequent updates\n can result in noisy gradients, but this can also be helpful in escaping\n the local minimum and finding the global one.",
+                        "",
+                        "https://www.ibm.com/cloud/learn/gradient-descent"
+                    ],
+                    "guid": "H6H)5/e{uc",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Vanishing Gradients",
+                        "",
+                        "This occurs when the gradient is too small. As we move backwards during \nbackpropagation, the gradient continues to become smaller, causing the \nearlier layers in the network to learn more slowly than later layers. \nWhen this happens, the weight parameters update until they become \ninsignificant—i.e. 0—resulting in an algorithm that is no longer \nlearning.",
+                        "",
+                        "<a href=\"https://www.ibm.com/cloud/learn/gradient-descent\">https://www.ibm.com/cloud/learn/gradient-descent</a>"
+                    ],
+                    "guid": "Nh/+O~+rwT",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Exploding Gradients",
+                        "",
+                        "This happens when the gradient is too large, creating an unstable model.\n In this case, the model weights will grow too large, and they will \neventually be represented as NaN. One solution to this issue is to \nleverage a dimensionality reduction technique, which can help to \nminimize complexity within the model.",
+                        "",
+                        "<a href=\"https://www.ibm.com/cloud/learn/gradient-descent\">https://www.ibm.com/cloud/learn/gradient-descent</a>"
+                    ],
+                    "guid": "n]w<8:Rjy!",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "0 initialization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "caX5[~$i[Z",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Random Initialization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "C5wkp;!}~Q",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Xavier Initialization",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "J1$#;jh}Uk",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Momentum",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "jrXIL@pVBP",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "RMS Prop",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "c@mQB)aQl,",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Adam (Adaptive Moment Estimation)",
+                        "asd",
+                        "",
+                        "<img src=\"saddle_point_evaluation_optimizers.gif\" width=\"410\">",
+                        "<a href=\"https://github.com/ilguyi/optimizers.numpy\">https://github.com/ilguyi/optimizers.numpy</a>"
+                    ],
+                    "guid": "hiUZfZFM~B",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Learning Rate Decay",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "ic$mtpI-Bg",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Learning Rate",
+                        "",
+                        "Learning rate (also referred to as step size or the alpha)&nbsp;is the size of the steps that are taken to reach the minimum. This is typically a small value, and it is evaluated and updated based on the behavior of the cost function. High&nbsp;learning rates result in larger steps but risks overshooting the minimum. Conversely, a low learning rate&nbsp;has small step sizes. While it has the advantage of more precision, the number of iterations compromises overall efficiency as this takes more time and computations to reach the minimum.",
+                        "<img alt=\"High and low learning rates\" src=\"Learning Rate.jpg\">",
+                        "<a href=\"https://www.ibm.com/cloud/learn/gradient-descent\">https://www.ibm.com/cloud/learn/gradient-descent</a>"
+                    ],
+                    "guid": "Lcso/O5SY%",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Adagrad",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "d6R5)9Q_N@",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Adadelta",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "fh!6|MeK}z",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Protected Attributes",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "B:hH6/Z79u",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Gradient Clipping",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "EN,K5Ta^,)",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Gradient Boosting",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "z}:MlN*-p3",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Gradient_Descent"
+                    ]
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75f0051e-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75f006a4-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "02 : Deep Learning",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75f018d8-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75f01a40-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "03 : NLP",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75f02cb0-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75f02e22-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "04 : Reinforcement Learning",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75f0401a-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75f04178-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "05 : GANs",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75f052d0-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75f0541a-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "06 : MLOPs",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75f064c8-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75f06608-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "07 : Alignment",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "75ef5664-8c23-11ed-9550-709cd152b732",
+    "deck_config_uuid": "75ef5a6a-8c23-11ed-9550-709cd152b732",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75ef5a6a-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( New )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 9999,
+                "minSpace": 1,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75ef754a-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75ef8a44-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 100,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "AI - ML",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    20.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 1
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75f006a4-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75f01a40-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75f02e22-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75f04178-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75f0541a-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75f06608-8c23-11ed-9550-709cd152b732",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 99,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Off ( Complete )",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2,
+                    0
+                ],
+                "order": 0,
+                "perDay": 0,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7,
+                "maxIvl": 99999,
+                "minSpace": 1,
+                "perDay": 0
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Artificial Intelligence",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+            "css": "/* ----- START : Base Css ----- */\n\nhtml {\n\toverflow   : scroll;\n\toverflow-x : hidden;\n}\n\n.card{\n\tbackground-color : transparent;\n\tmargin           : auto;\n\tmax-width: auto;\n}\n\n:root {\n\t--label-color      : #181616;\n\t--label-font-color : #fff;\n\t--label-font-size  : 14px;\n\t--box-bg-color     : #e7e7e7;\n\t--box-font-color   : #181616;\n\t--box-font-size    : 22px;\n\t--text-font        : Garamond, Times New Roman, serif;\n\t--text-font-size   : 24px;\n}\n\n@media screen and (max-width: 600px){\n\n       \n\t\n\t/* android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n\n\ttr { display: table;  width:100%;}               \n\ttd { display: table-row;  }\n\ntable {\n\tdisplay         : inline-table;\n\twidth           : 100%;\n\tpadding         : 0px 0px 0px 0px;\n\tmargin          : 0px 0px 0px 0px;\n\tborder-spacing  : 10px;\n\tborder-collapse : separate;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n.replay-button svg {\n\twidth  : 2rem;\n\theight : 2rem;\n}\n\n.replay-button svg circle {\n\tfill    : transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n\tfill    : black;\n\tstroke : black;\n}\n\n.box\n{\n\tpadding          : 0px 0px 30px 0px;\n\tmargin           : 0px;\n\tmin-height       : 300px;\n\twidth            : auto;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--box-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : left;\n\tcolor            : var(--box-font-color);\n\tbackground-color : var(--box-bg-color);\n\n}\n\n.box_contents\n{\n\tpadding : 0px 0px 40px 0px;\n\tmargin  : 0px 20px 0px 20px;\n\tborder  : 0px solid black;\n}\n\n.label\n{\n\twidth            : auto;\n\tpadding          : 8px 10px 8px 10px;\n\tfloat            : left;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--label-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : var(--label-font-color);;\n\tbackground-color : var(--label-color);\n}\n\n/* ----- END : Base Css ----- */\n\n\n\n/* ----- START : Deck Specific Css ----- */\n\n.box\n{\n\twidth            : 100%;\n}\n\n.concept{\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--text-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n\tdisplay          : inline;\n}\n\n.simple{\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--text-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : justify;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n\ttext-justify     : inter-word;\n\tdisplay:inline;\n}\n\n.detailed{\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--text-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : left;\n\tcolor            : var(--box-font-color);\n\tbackground-color : transparent;\n\tpadding          : 0px;\n\tmargin           : 0px;\n\ttext-justify     : inter-word;\n}\n\n.image\n{\n\twidth        : 100%;\n\theight       : auto;\n\tborder       : 0px;\n\tpadding      : 0px;\n\tmargin       : 0px;\n\tmargin-left  : auto;\n\tmargin-right : auto;\n\tdisplay      : block;\n\ttext-align   : center;\n}\n\n/* ----- END : Deck Specific Css ----- */\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Concept",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Simple Explanation",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Detailed Explanation",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Image",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Sources",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "AI - ML",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "<table>\n    <tr>\n        {{#Concept}} \n            <td class=\"box\" valign=\"top\">\n                <div class=\"label\">           Concept     </div> <br><br>\t\t\t\t\t\t\t\t\t\n                <div class=\"box_contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"concept\"> <b>{{Concept}}</b> </div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"simple\"> {{Simple Explanation}} </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n            </td>\n        {{/Concept}}\n    </tr>\n\n    <tr>\n        {{#Detailed Explanation}} \n            <td class=\"box\" valign=\"top\">\n                <div class=\"label\">           Detailed Explanation     </div> <br><br>\t\t\t\t\t\t\t\t\n                <div class=\"box_contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"detailed\"> {{Detailed Explanation}} </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n            </td>\n        {{/Detailed Explanation}}\n        {{#Image}} \n            <td class=\"box\" valign=\"top\">\n                <div class=\"label\">           Image     </div> <br><br>\t\t\t\t\t\t\t\t\t\n                <div class=\"box_contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"image\"> {{Image}} </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n            </td>\n        {{/Image}}\n    </tr>\n</table>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Explanation -> Concept",
+                    "ord": 0,
+                    "qfmt": "<table>\n    <tr>\n        {{#Concept}} \n            <td class=\"box\" valign=\"top\">\n                <div class=\"label\">           Concept     </div> <br><br>\t\t\t\t\t\t\t\t\t\n                <div class=\"box_contents\">\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"concept\"> <b>[ ... ? ] </b> </div>\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"simple\"> {{Simple Explanation}} </div>\n\t\t\t\t\t\t\t\t\t\t</div>\n            </td>\n        {{/Concept}}\n    </tr>\n\n</table>\n"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
