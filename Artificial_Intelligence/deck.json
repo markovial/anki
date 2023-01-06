@@ -5,31 +5,17 @@
             "__type__": "Deck",
             "children": [],
             "crowdanki_uuid": "75ef7360-8c23-11ed-9550-709cd152b732",
-            "deck_config_uuid": "75ef754a-8c23-11ed-9550-709cd152b732",
-            "desc": "",
-            "dyn": 0,
-            "extendNew": 0,
-            "extendRev": 0,
-            "media_files": [],
-            "name": "00 : Basics",
-            "notes": []
-        },
-        {
-            "__type__": "Deck",
-            "children": [],
-            "crowdanki_uuid": "75ef8904-8c23-11ed-9550-709cd152b732",
             "deck_config_uuid": "75ef8a44-8c23-11ed-9550-709cd152b732",
             "desc": "",
             "dyn": 0,
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [
-                "ICLH_Diagram_Batch_01_04-GradientDescent-WHITEBG_0.png",
-                "Learning Rate.jpg",
-                "model-over-fitting.png",
-                "saddle_point_evaluation_optimizers.gif"
+                "1-errors-ml.JPG",
+                "7-bullseye.JPG",
+                "model-over-fitting.png"
             ],
-            "name": "01 : Machine Learning",
+            "name": "00 : Basics",
             "newLimit": null,
             "newLimitToday": null,
             "notes": [
@@ -127,8 +113,8 @@
                     "__type__": "Note",
                     "fields": [
                         "F1 Score",
-                        "is the average of precision and recall.",
-                        "",
+                        "measures the model by taking into account both prediction errors as well as the type of errors that are made.",
+                        "The Precision-Recall Trade-Off represents the fact that in many cases, you can tweak a model to increase precision at a cost of a lower recall, or on the other hand increase recall at the cost of lower precision. So we need to combine them.<br><br>The F1 score is defined as the harmonic mean of precision and recall.<br><br>The&nbsp;<a href=\"https://en.wikipedia.org/wiki/Harmonic_mean\">harmonic mean</a>&nbsp;is one type of 'mean/average' of something and is the inverse&nbsp;of the <a href=\"https://en.wikipedia.org/wiki/Arithmetic_mean\">arithmetic mean</a>.<br><br>The goal of the F1 score is to combine the precision and recall metrics into a single metric to work well on imbalanced data.<br><br>Accuracy = # correct predictions / # total predictions<br>Precision = # true positives / ( # true positives + # false positives )<br>Recall = # true positives /&nbsp;&nbsp;( # true positives + # false negatives )<br>F1 Score = 2 * (precision * recall) / ( precision + recall )",
                         "",
                         ""
                     ],
@@ -136,111 +122,6 @@
                     "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
                     "tags": [
                         "AI::ML::Evaluation"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Sigmoid",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "oFiJ)x,X:F",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Tanh",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "J`RmvQhf_",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "ReLU",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "myjlO5,9$W",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "ReLU (Leaky)",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "rJgF31+dR;",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Softmax",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "A+=TeHEzIv",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Argmax",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "rq!x=]5]^z",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "GeLU",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "h^159.9?vy",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Activation_Functions"
                     ]
                 },
                 {
@@ -256,141 +137,6 @@
                     "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
                     "tags": [
                         "AI::ML::Evaluation"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Statistical Parity",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "t/UjP.L>v2",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Error Rate Parity",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "Oe-+N[_{)o",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Sample Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "dv1y8d:|Tp",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Exclusion Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "uD*f9A=b%-",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Automation Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "i|_AbJyL$x",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Observer Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "wJl,!2FbdR",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Availability Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "E-taM_K8K7",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Prejudice Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "FB!fYvu{Ki",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "Avoidable Bias",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "Fjg7?xP{Xn",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
                     ]
                 },
                 {
@@ -442,10 +188,10 @@
                     "__type__": "Note",
                     "fields": [
                         "Precision",
+                        "is a part of the F1 Score. Within everything that has been predicted as a positive, it counts the percentage that is correct.",
+                        "<br><br>It can also be used as an individual machine learning metric.<br><br><ul><li>An&nbsp;<u>imprecise model</u>&nbsp;might be very accurate , but if our data distribution is skewed or noisy (e.g. 99% lookers , 1% shoppers ) it might also detect many positives that aren’t actually positives.</li><li>A precise model might not be as accurate , but the classes that it does label correctly&nbsp;are very likely to be correct.</li></ul><br>Precision = # true positives / ( # true positives + # false positives )<br>",
                         "",
-                        "",
-                        "",
-                        ""
+                        "<a href=\"https://towardsdatascience.com/the-f1-score-bec2bbc38aa6?gi=4dd803ee68f1\">https://towardsdatascience.com/the-f1-score-bec2bbc38aa6?gi=4dd803ee68f1</a>"
                     ],
                     "guid": "zfdkhX!1YM",
                     "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
@@ -466,6 +212,204 @@
                     "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
                     "tags": [
                         "AI::ML::Evaluation"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Bias",
+                        "<div>is the difference between our actual and predicted values. It is a measure of our models overall accuracy.</div>",
+                        "<div>When the Bias is high, assumptions made by our model are too basic, the model can’t capture the important features of our data. This means that our model hasn’t captured patterns in the training data and hence cannot perform well on the testing data too. If this is the case, our model cannot perform on new data and cannot be sent into production.</div><div><br></div> <div>This instance, where the model cannot find patterns in our training set and hence fails for both seen and unseen data, is called <u><b>Underfitting</b></u>.&nbsp;</div>",
+                        "",
+                        "<a href=\"https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance\">https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance</a>"
+                    ],
+                    "guid": "ljhW>Jjk|x",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Variance",
+                        "as the model’s sensitivity to fluctuations in the data.",
+                        "<div>Our model may learn from noise. This will cause our model to consider trivial features as important.&nbsp;<u><b><br></b></u></div><div><u><b>Variance</b></u>&nbsp;is a measure of how well our model generalizes.<br></div><div><u><b>Overfitting</b></u>&nbsp;occurs when a model has high variance.</div>",
+                        "<img src=\"7-bullseye.JPG\">",
+                        "<a href=\"https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance\">https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance</a>"
+                    ],
+                    "guid": "GS0LV+Mj`j",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Irreducible errors&nbsp;",
+                        "are errors will always be present in a machine learning model, because of unknown variables, and whose values cannot be reduced.",
+                        "",
+                        "<img alt=\"1-errors-ml\" src=\"1-errors-ml.JPG\">",
+                        "<a href=\"https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance\">https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance</a>"
+                    ],
+                    "guid": "f2<,40m9)$",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Reducible errors",
+                        "are those errors whose values can be further reduced to improve a model. They are caused because our model’s output function does not match the desired output function and can be optimized.",
+                        "",
+                        "<img alt=\"1-errors-ml\" src=\"1-errors-ml.JPG\">",
+                        "<a href=\"https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance\">https://www.simplilearn.com/tutorials/machine-learning-tutorial/bias-and-variance</a>"
+                    ],
+                    "guid": "Sx|ZjLzQd",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Accuracy",
+                        "is a metric for classification models that measures the number of predictions that are correct as a percentage of the total number of predictions that are made.",
+                        "Accuracy is not a good metric to use when you have class imbalance.<br><br>Accuracy = # correct predictions / # total predictions<br><br>If only 1% of people buy vs. 99% look , your model can predict 100% only look and be 99% accurate. You can solve imbalance through resampling data , or using the Precision , recall and the F1 score.",
+                        "",
+                        "<a href=\"https://towardsdatascience.com/the-f1-score-bec2bbc38aa6?gi=4dd803ee68f1\">https://towardsdatascience.com/the-f1-score-bec2bbc38aa6?gi=4dd803ee68f1</a>"
+                    ],
+                    "guid": "x3mH2e:%;C",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": []
+                }
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "75ef8904-8c23-11ed-9550-709cd152b732",
+            "deck_config_uuid": "75ef8a44-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [
+                "151Q7QouspCkOvENni2RwfQ.png",
+                "1Myto4ZQagAOoyom4tqkaRQ.png",
+                "1QXjftnJ9y5pFwajiB3CG-g.png",
+                "1gDIUV3yonKbIWh_9Kl4ShQ.png",
+                "1kFWX1dWUtLWo3LJLKsqhwA.png",
+                "1m_0v2nY5upLmCU-0SuGZXg.png",
+                "ICLH_Diagram_Batch_01_04-GradientDescent-WHITEBG_0.png",
+                "Learning Rate.jpg",
+                "saddle_point_evaluation_optimizers.gif"
+            ],
+            "name": "01 : Machine Learning",
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sigmoid",
+                        "is a nonlinear&nbsp;continuous function that maps R -&gt; [0,1]",
+                        "f(x) = 1 / ( 1 +e^(-x) )<br>f'(x) =&nbsp;<br><ul><li>Non-linear</li><li>Binary (ever output is either above, below, or equal to 0.5)</li><li>Smooth gradient</li><li>Always will be in the range (0,1) so values are kept close together</li></ul>A downside of the sigmoid function is that towards the ends of the \ncurve, y values (outputs) tend to respond very little to changes in x \n(dy/dx is close to zero). This means that the gradient is small or has \nvanished entirely which gives useless results for inputs that are higher\n than about 6 in value.<br><br>If we look carefully at the graph towards the ends of the function, y values react very little to the changes in x. The derivative values in these regions are very small and converge to 0. This is called<strong> the vanishing gradient</strong> and the learning is minimal.&nbsp;When slow learning occurs, the optimization algorithm that minimizes \nerror can be attached to local minimum values and cannot get maximum \nperformance from the artificial neural network model.<br><br>The&nbsp;<strong>sigmoid</strong>&nbsp;function can be used if you say that the&nbsp;<strong>hyperbolic tangent</strong>&nbsp;or model can be learned a little slower because of its wide range of activating functions.<br>",
+                        "<img alt=\"\" src=\"1Myto4ZQagAOoyom4tqkaRQ.png\">",
+                        "<a href=\"https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a\">https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a</a>"
+                    ],
+                    "guid": "oFiJ)x,X:F",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Tanh",
+                        "is a nonlinear continuous function that maps a real number to [-1, 1].",
+                        "tanh(x) = ( 2 / ( 1 +e^(-2x) ) ) - 1<br>tanh(x) = 2 * sigmoid(2x) - 1<br>f'(x) = 1 - (f(x)^2)<br><ul><li>Non-linear</li><li>Is in range (-1,1)</li><li>The gradient is stronger for tanh that sigmoid (the derivatives are much steeper more of the time)</li><li>Like sigmoid, tanh also has the vanishing gradient problem towards the ends</li><li>Like sigmoid, it is very popular — libraries support it</li></ul><br>It has a structure very similar to Sigmoid function. However, this time \nthe function is defined as (-1, + 1). The advantage over the sigmoid \nfunction is that its derivative is more steep, which means it can get \nmore value. This means that it will be more efficient because it has a \nwider range for faster learning and grading. Similar to the sigmoid it also has the vanishing gradients problem.<br><br>The&nbsp;<strong>sigmoid</strong>&nbsp;function can be used if you say that the&nbsp;<strong>hyperbolic tangent</strong>&nbsp;or model can be learned a little slower because of its wide range of activating functions.<br>",
+                        "<img alt=\"\" src=\"151Q7QouspCkOvENni2RwfQ.png\">",
+                        "<a href=\"https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a\">https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a</a>"
+                    ],
+                    "guid": "J`RmvQhf_",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ReLU ( Rectified linear unit)",
+                        "",
+                        "f(x) = max(0,x) ,&nbsp; x &gt;=0<br>&nbsp; &nbsp; &nbsp; = 0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; , x &lt; 0<br>f'(x) =&nbsp;<br><br><div><strong>About ReLu:</strong></div><ul><li>Non-linear in nature.</li><li>Not bound (darn!)</li><li>Range is [0, inf) — can blow up the activation</li><li>Not as computationally costly as the other functions</li><li>Involves only simple mathematical operations</li><li>Because\n of the horizontal line for any negative x values, the gradient can go \nto 0 and nothing changes in the back-propagation step— this is known as \nthe “dying ReLu problem”</li></ul><br>Let’s imagine a large neural network with too many neurons. Sigmoid and \nhyperbolic tangent caused almost all neurons to be activated in the same\n way. This means that the activation is very intensive. Some of the \nneurons in the network are active, and activation is infrequent, so we \nwant an efficient computational load. We get it with ReLU. Having a \nvalue of 0 on the negative axis means that the network will run faster. T<strong>he\n fact that the calculation load is less than the sigmoid and hyperbolic \ntangent functions has led to a higher preference for multi-layer \nnetworks.<br></strong><br>But if your network is too deep and the computational load is a major problem,&nbsp;<strong>ReLU</strong>&nbsp;can be preferred.&nbsp;<br>",
+                        "<img alt=\"\" src=\"1m_0v2nY5upLmCU-0SuGZXg.png\">",
+                        "<a href=\"https://becominghuman.ai/a-practical-comparison-of-activation-functions-6f348be7d274?gi=2da2ce0e264d\">https://becominghuman.ai/a-practical-comparison-of-activation-functions-6f348be7d274?gi=2da2ce0e264d</a>"
+                    ],
+                    "guid": "myjlO5,9$W",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "ReLU (Leaky)",
+                        "",
+                        "f(x) =&nbsp;<br>f'(x) =&nbsp;<br>This leaky value is given as a value of 0.01 if given a different value \nnear zero, the name of the function changes randomly as Leaky ReLU. The definition range of the leaky-ReLU continues\n to be minus infinity. This is close to 0, but 0 with the value of the \nnon-living gradients in the RELU lived in the negative region of \nlearning to provide the values.<br><br><br><br>You can decide to use <strong>Leaky ReLU</strong> as a solution to the problem of vanishing gradients in ReLU. But you do more computation than ReLU.",
+                        "<img alt=\"\" src=\"1gDIUV3yonKbIWh_9Kl4ShQ.png\">",
+                        ""
+                    ],
+                    "guid": "rJgF31+dR;",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Softmax",
+                        "",
+                        "f(x) =&nbsp;<br>f'(x) =&nbsp;<br><br><div>The most important difference from ReLU is in the negative region. <strong>Leaky had the same value in ReLU, what was the difference in it? </strong>All\n other activation functions are monotonous. Note that the output of the \nswish function may fall even when the input increases. This is an \ninteresting and swish-specific feature.</div><div><strong>f(x)=2x*sigmoid(beta*x)</strong></div>",
+                        "<img alt=\"\" src=\"1kFWX1dWUtLWo3LJLKsqhwA.png\">",
+                        "<a href=\"https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a\">https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a</a>"
+                    ],
+                    "guid": "A+=TeHEzIv",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Argmax",
+                        "",
+                        "f(x) =&nbsp;<br>f'(x) =&nbsp;",
+                        "",
+                        ""
+                    ],
+                    "guid": "rq!x=]5]^z",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "GeLU",
+                        "",
+                        "f(x) =&nbsp;<br>f'(x) =&nbsp;",
+                        "",
+                        ""
+                    ],
+                    "guid": "h^159.9?vy",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
                     ]
                 },
                 {
@@ -906,21 +850,6 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "Protected Attributes",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "guid": "B:hH6/Z79u",
-                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
-                    "tags": [
-                        "AI::ML::Evaluation::Fairness"
-                    ]
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
                         "Gradient Clipping",
                         "",
                         "",
@@ -946,6 +875,21 @@
                     "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
                     "tags": [
                         "AI::ML::Gradient_Descent"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Step",
+                        "is a linear activation function.",
+                        "It is a function that takes a binary value and is used as a binary \nclassifier. Therefore, it is generally preferred in the output layers. \nIt is not recommended to use it in hidden layers because it does not \nrepresent derivative learning value and it will not appear in the \nfuture.",
+                        "<img alt=\"\" src=\"1QXjftnJ9y5pFwajiB3CG-g.png\">",
+                        "<a href=\"https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a\">https://towardsdatascience.com/comparison-of-activation-functions-for-deep-neural-networks-706ac4284c8a</a>"
+                    ],
+                    "guid": "LEL$,UL~nV",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Activation_Functions"
                     ]
                 }
             ],
@@ -1028,6 +972,170 @@
         {
             "__type__": "Deck",
             "children": [],
+            "crowdanki_uuid": "9fbe758a-8dc5-11ed-bfc7-709cd152b732",
+            "deck_config_uuid": "75f006a4-8c23-11ed-9550-709cd152b732",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "07 : Ethics",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Statistical Parity",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "t/UjP.L>v2",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Error Rate Parity",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "Oe-+N[_{)o",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Sample Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "dv1y8d:|Tp",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Exclusion Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "uD*f9A=b%-",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Automation Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "i|_AbJyL$x",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Observer Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "wJl,!2FbdR",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Availability Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "E-taM_K8K7",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Prejudice Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "FB!fYvu{Ki",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Avoidable Bias",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "Fjg7?xP{Xn",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Protected Attributes",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "guid": "B:hH6/Z79u",
+                    "note_model_uuid": "75efa45c-8c23-11ed-9550-709cd152b732",
+                    "tags": [
+                        "AI::ML::Evaluation::Fairness"
+                    ]
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
             "crowdanki_uuid": "75f064c8-8c23-11ed-9550-709cd152b732",
             "deck_config_uuid": "75f06608-8c23-11ed-9550-709cd152b732",
             "desc": "",
@@ -1035,117 +1143,13 @@
             "extendNew": 0,
             "extendRev": 0,
             "media_files": [],
-            "name": "07 : Alignment",
+            "name": "08 : Alignment",
             "notes": []
         }
     ],
     "crowdanki_uuid": "75ef5664-8c23-11ed-9550-709cd152b732",
-    "deck_config_uuid": "75ef5a6a-8c23-11ed-9550-709cd152b732",
+    "deck_config_uuid": "75ef8a44-8c23-11ed-9550-709cd152b732",
     "deck_configurations": [
-        {
-            "__type__": "DeckConfig",
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "75ef5a6a-8c23-11ed-9550-709cd152b732",
-            "dyn": false,
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 0,
-                "leechFails": 99,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Off ( New )",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    4,
-                    0
-                ],
-                "order": 1,
-                "perDay": 0,
-                "separate": true
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.3,
-                "fuzz": 0.05,
-                "hardFactor": 1.2,
-                "ivlFct": 1.0,
-                "maxIvl": 9999,
-                "minSpace": 1,
-                "perDay": 9999
-            },
-            "reviewOrder": 0,
-            "timer": 0
-        },
-        {
-            "__type__": "DeckConfig",
-            "autoplay": true,
-            "buryInterdayLearning": false,
-            "crowdanki_uuid": "75ef754a-8c23-11ed-9550-709cd152b732",
-            "dyn": false,
-            "interdayLearningMix": 0,
-            "lapse": {
-                "delays": [
-                    10.0
-                ],
-                "leechAction": 0,
-                "leechFails": 99,
-                "minInt": 1,
-                "mult": 0.0
-            },
-            "maxTaken": 60,
-            "name": "Off ( Complete )",
-            "new": {
-                "bury": false,
-                "delays": [
-                    1.0,
-                    10.0
-                ],
-                "initialFactor": 2500,
-                "ints": [
-                    1,
-                    2,
-                    0
-                ],
-                "order": 0,
-                "perDay": 0,
-                "separate": true
-            },
-            "newGatherPriority": 0,
-            "newMix": 0,
-            "newPerDayMinimum": 0,
-            "newSortOrder": 0,
-            "replayq": true,
-            "rev": {
-                "bury": false,
-                "ease4": 1.1,
-                "fuzz": 0.05,
-                "hardFactor": 1.2,
-                "ivlFct": 0.7,
-                "maxIvl": 99999,
-                "minSpace": 1,
-                "perDay": 0
-            },
-            "reviewOrder": 0,
-            "timer": 0
-        },
         {
             "__type__": "DeckConfig",
             "autoplay": true,

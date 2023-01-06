@@ -1,0 +1,48 @@
+CLOZE QUESTION {{{
+
+<table>
+	<tr>
+		{{#Concept}} 
+			<td class="box" valign="top">
+				<div class="label"> Concept </div> <br><br>
+				<div class="box_contents">
+					<div class="concept"> <b> {{Concept}} </b> </div>
+					<div class="simple"> {{Simple Explanation}} </div>
+				</div>
+			</td>
+		{{/Concept}}
+	</tr>
+</table>
+
+}}}
+
+CLOZE ANSWER {{{
+
+<table>
+	<tr>
+		{{#Concept}} 
+			<td class="box" valign="top">
+				<div class="label"> Concept </div> <br><br>
+				<div class="box_contents">
+					<div class="concept"> <b> {{Concept}} </b> </div>
+					<div class="simple"> {{Simple Explanation}} </div>
+				</div>
+			</td>
+		{{/Concept}}
+	</tr>
+</table>
+
+<tr>
+{{#Detailed Explanation}} 
+	<td class="box" valign="top">
+		<div class="label"> Detailed Explanation </div> <br><br>
+		<div class="box_contents">
+			<div class="detailed"> {{Detailed Explanation}} </div>
+		</div>
+	</td>
+{{/Detailed Explanation}}
+
+}}}
+
+
+
