@@ -16109,14 +16109,18 @@
                 }
             ],
             "crowdanki_uuid": "e96315d0-7703-11ec-8fc3-709cd152b732",
-            "deck_config_uuid": "e96318d2-7703-11ec-8fc3-709cd152b732",
+            "deck_config_uuid": "75ef5a6a-8c23-11ed-9550-709cd152b732",
             "desc": "",
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
             "media_files": [],
             "name": "Grammatik",
-            "notes": []
+            "newLimit": null,
+            "newLimitToday": null,
+            "notes": [],
+            "reviewLimit": null,
+            "reviewLimitToday": null
         },
         {
             "__type__": "Deck",
@@ -16137,6 +16141,8 @@
             ],
             "mid": 1597820644292,
             "name": "Wortschatz",
+            "newLimit": null,
+            "newLimitToday": null,
             "notes": [
                 {
                     "__type__": "Note",
@@ -24292,7 +24298,7 @@
                         "",
                         "",
                         "",
-                        "<a href=\"https://www.dict.cc/?s=Angelegenheit\">https://www.dict.cc/?s=Angelegenheit</a><br>"
+                        "<a href=\"https://www.dict.cc/?s=Angelegenheit\">https://www.dict.cc/?s=Angelegenheit</a>"
                     ],
                     "guid": "d)`,hU5k>|",
                     "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
@@ -24686,7 +24692,7 @@
                     "__type__": "Note",
                     "fields": [
                         "der Prügel | die Prügel",
-                        "beating , spanking , bashing",
+                        "beating , bashing",
                         "prügeln | prügelte | geprügelt",
                         "to cudgel , to thrash , to flog",
                         "prügelnd | - | -",
@@ -26493,7 +26499,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Eintracht | - ,<div>die Einträchtigkeit | die Einträchtigkeiten</div>",
+                        "die Eintracht | - , die Einträchtigkeit | die Einträchtigkeiten",
                         "concord , harmony , unity , unanimity",
                         "",
                         "",
@@ -32525,7 +32531,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Gleichmäßigkeit | die Geichmäßigkeiten&nbsp;<div></div>",
+                        "die Gleichmäßigkeit | die Geichmäßigkeiten",
                         "evenness , uniformity , smoothness",
                         "",
                         "",
@@ -33773,7 +33779,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -35085,32 +35091,16 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
                         "säkular | säkularer | am säkularsten",
                         "secular",
                         "",
-                        "<a href=\"https://www.dict.cc/?s=s%C3%A4kular\">https://www.dict.cc/?s=s%C3%A4kular</a><br>"
+                        "<a href=\"https://www.dict.cc/?s=s%C3%A4kular\">https://www.dict.cc/?s=s%C3%A4kular</a>"
                     ],
                     "guid": "ydLu]5Dlx8",
-                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
-                    "tags": []
-                },
-                {
-                    "__type__": "Note",
-                    "fields": [
-                        "das Fell | -",
-                        "hide ,&nbsp;fur , pelt",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "<a href=\"https://www.dict.cc/?s=Fell\">https://www.dict.cc/?s=Fell</a><br>"
-                    ],
-                    "guid": "Pj>gR:5g=g",
                     "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
                     "tags": []
                 },
@@ -35149,14 +35139,14 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "aufreizen | reizte auf/aufreizte | aufgereizt (zu)",
                         "to goad , to arouse sb. , to tantalize",
                         "aufgereizt | - | -",
                         "egged (on)",
                         "",
-                        "<a href=\"https://www.dict.cc/?s=aufreizen\">https://www.dict.cc/?s=aufreizen</a><br>"
+                        "<a href=\"https://www.dict.cc/?s=aufreizen\">https://www.dict.cc/?s=aufreizen</a>"
                     ],
                     "guid": "CTDfLeP88r",
                     "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
@@ -35213,12 +35203,12 @@
                 {
                     "__type__": "Note",
                     "fields": [
+                        "",
+                        "",
+                        "",
+                        "",
                         "zäh",
                         "tough {adj} [meat;&nbsp;constitution] ,&nbsp;tenacious {adj} [determined;&nbsp;persistent]",
-                        "",
-                        "",
-                        "",
-                        "",
                         "",
                         "<a href=\"https://www.dict.cc/?s=zaeh\">https://www.dict.cc/?s=zaeh</a>"
                     ],
@@ -35453,7 +35443,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "verabsäumen | verabsäumte | verabsäumt",
                         "to neglect , to omit sth. (office speak)",
@@ -35581,7 +35571,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Bespitzelung | - ,<div>das Bespitzeln | -</div>",
+                        "die Bespitzelung | - , das Bespitzeln | -",
                         "spying (on somebody)",
                         "bespitzeln | bespitzelte | bespitzelt",
                         "to spy on sb.",
@@ -35645,7 +35635,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -35725,11 +35715,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
                         "",
                         "",
                         "",
-                        "unbefristet | [selten] unbefristeter | [selten] am unbefristetsten<br>",
+                        "",
+                        "unbefristet | [selten] unbefristeter | [selten] am unbefristetsten",
                         "perpetual , unlimited , indefinite (temporal)",
                         "",
                         "<a href=\"https://www.dict.cc/?s=unbefristet\">https://www.dict.cc/?s=unbefristet</a>"
@@ -35757,11 +35747,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "das Abbauen | -<br>",
+                        "das Abbauen | -",
                         "",
                         "(sich)&nbsp;abbauen | baute ab/abbaute | abgebaut",
                         "to dismantle , to destroy sth. , to remove sth. , to cut sth.",
-                        "abgebaut | - | -&nbsp;<br>",
+                        "abgebaut | - | -&nbsp;",
                         "degraded , mined , dismantled",
                         "",
                         "<a href=\"https://www.dict.cc/?s=abbauen\">https://www.dict.cc/?s=abbauen</a>"
@@ -35773,7 +35763,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "das Einlegen | -<br>",
+                        "das Einlegen | -",
                         "",
                         "einlegen | legte ein/einlegte | eingelegt",
                         "to deposit , to insert , to lodge",
@@ -35821,11 +35811,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
                         "",
                         "",
                         "",
-                        "unternehmungslustig | unternehmungslustiger | am unternehmungslustigsten<br>",
+                        "",
+                        "unternehmungslustig | unternehmungslustiger | am unternehmungslustigsten",
                         "adventurous , sporting , enterprising",
                         "",
                         "<a href=\"https://www.dict.cc/?s=unternehmungslustig\">https://www.dict.cc/?s=unternehmungslustig</a>"
@@ -35853,9 +35843,9 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Beschimpfung | die Beschimpfungen<br>",
+                        "die Beschimpfung | die Beschimpfungen",
                         "slander , insult",
-                        "beschimpfen | beschimpfte | beschimpft<br>",
+                        "beschimpfen | beschimpfte | beschimpft",
                         "to berate , to insult , to abuse",
                         "beschimpft | - | -",
                         "affronted , berated , insulted",
@@ -36000,7 +35990,7 @@
                         "&nbsp; die Bewährung | die Bewährungen",
                         "probation , parole , testing",
                         "sich bewähren | bewährte sich/sich bewährte | sich bewährt",
-                        "to prove oneself ,&nbsp;to stand the test<br>",
+                        "to prove oneself ,&nbsp;to stand the test",
                         "bewährt | bewährter | am bewährtesten",
                         "established , reliable , seasoned , proven",
                         "",
@@ -36029,7 +36019,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Ausgabe | die Ausgaben<br>",
+                        "die Ausgabe | die Ausgaben",
                         "expenses , expenditures",
                         "ausgeben | gab aus/ausgab | ausgegeben",
                         "to spend , to dispense sth. , to expend",
@@ -36045,7 +36035,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "der Umgang [Rundgang, Umzug] | die Umgänge<br>",
+                        "der Umgang [Rundgang, Umzug] | die Umgänge",
                         "evasion , bypass",
                         "",
                         "",
@@ -36079,7 +36069,7 @@
                     "fields": [
                         "die Behebung | die Behebungen",
                         "rectification , removal , adjustment",
-                        "beheben | behob | behoben<br>",
+                        "beheben | behob | behoben",
                         "to correct , to remedy , to remove",
                         "behoben | - | -",
                         "remedied , fixed",
@@ -36109,7 +36099,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Fliese | die Fliesen<br>",
+                        "die Fliese | die Fliesen",
                         "slab , flagstone , tile",
                         "fliesen | flieste | gefliest",
                         "to tile (a floor)",
@@ -36159,7 +36149,7 @@
                     "fields": [
                         "-",
                         "",
-                        "vererben | vererbte | vererbt<br>",
+                        "vererben | vererbte | vererbt",
                         "to bequeath , to leave sb. sth. as inheritance",
                         "vererbt | - | -",
                         "hereditary",
@@ -36207,7 +36197,7 @@
                     "fields": [
                         "die Ausführung | die Ausführungen",
                         "execution , conducting , accomplishment",
-                        "ausführen | führte aus/ausführte | ausgeführt&nbsp;<div></div>",
+                        "ausführen | führte aus/ausführte | ausgeführt",
                         "to implement , to perform sth. , to accomplish sth.",
                         "ausgeführt | - | - ,&nbsp;ausführbar | - | -&nbsp;",
                         "conducted , accomplished<div>feasibly , doable , executable</div>",
@@ -36285,7 +36275,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "referieren | referierte | referiert",
                         "to report on sth. , to give a lecture on sth.",
@@ -36320,7 +36310,7 @@
                         "die Erforderung | die Erforderungen",
                         "entailment",
                         "erfordern | erforderte | erfordert",
-                        "to require sb./sth. , to deamand , to necessitate",
+                        "to require sb./sth. , to demand , to necessitate",
                         "erfordert | - | - ,&nbsp;&nbsp;erfordernd | - | -&nbsp;",
                         "sth. requires , takes , necessitates",
                         "",
@@ -36349,7 +36339,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Einreichung | die Einreichungen<br>",
+                        "die Einreichung | die Einreichungen",
                         "submission , filing , lodging",
                         "einreichen | reichte ein/einreichte | eingereicht",
                         "to submit sth. (request , report ),<div>to file sth. , to lodge</div>",
@@ -36429,7 +36419,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -36543,7 +36533,7 @@
                     "fields": [
                         "die Verdickung | die Verdickungen",
                         "bulge ,&nbsp;thickening ,&nbsp;swelling",
-                        "sich verdicken | verdickte sich/sich verdickte | sich verdickt<br>",
+                        "sich verdicken | verdickte sich/sich verdickte | sich verdickt",
                         "to condense , to thicken",
                         "",
                         "",
@@ -36573,7 +36563,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "übersäen | übersäte | übersät",
                         "to litter sth. [e. g. with rubbish] ,&nbsp;to strew",
@@ -36621,7 +36611,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -36637,11 +36627,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
                         "",
                         "",
                         "",
-                        "senkrecht | senkrechter | am senkrechtesten&nbsp;<div></div>",
+                        "",
+                        "senkrecht | senkrechter | am senkrechtesten&nbsp;",
                         "perpendicular , vertical , upright",
                         "",
                         "<a href=\"https://www.dict.cc/?s=senkrecht\">https://www.dict.cc/?s=senkrecht</a>"
@@ -36653,7 +36643,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -36669,10 +36659,10 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
                         "",
                         "",
-                        "to be adjacent to sth. ,&nbsp;to border on sth.<br>",
+                        "",
+                        "to be adjacent to sth. ,&nbsp;to border on sth.",
                         "benachbart | - | - (mit)",
                         "adjacent , adjoining , neighboring",
                         "mit etw. benachbart sein",
@@ -36687,7 +36677,7 @@
                     "fields": [
                         "der Ausstoß | die Ausstöße",
                         "emission , output , ejection , blow out",
-                        "ausstoßen | stieß aus/ausstieß | ausgestoßen<br>",
+                        "ausstoßen | stieß aus/ausstieß | ausgestoßen",
                         "to emit (fumes , gas , smoke)",
                         "ausgestoßen | - | -",
                         "expelled , outcast , ejected",
@@ -36817,8 +36807,8 @@
                         "",
                         "brüskieren | brüskierte | brüskiert",
                         "to snub , rebuff",
-                        "snubbed",
                         "",
+                        "snubbed",
                         "",
                         "<a href=\"https://www.dict.cc/?s=br%C3%BCskieren\">https://www.dict.cc/?s=br%C3%BCskieren</a>"
                     ],
@@ -36877,14 +36867,14 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "überrumpeln | überrumpelte | überrumpelt",
                         "to blindside , to catch sb. out , to take by surprise",
                         "überrumpelt | - | -",
                         "blindsided",
                         "",
-                        ""
+                        "<a href=\"https://www.dict.cc/?s=%C3%BCberrumpeln\">https://www.dict.cc/?s=überrumpeln</a>"
                     ],
                     "guid": "c>eRW$z#g%",
                     "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
@@ -36941,7 +36931,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -37005,7 +36995,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "der Umsatz | adie Umsätze",
+                        "der Umsatz | die Umsätze",
                         "turnover , revenue , sales",
                         "",
                         "",
@@ -37023,8 +37013,8 @@
                     "fields": [
                         "das Umsetzen | -",
                         "",
-                        "sich&nbsp;umsetzen | setzte um/umsetzte | umgesetzt",
-                        "to implement sth. , to relocate , to gross<div>to convert sth.<br></div>",
+                        "sich umsetzen | setzte um/umsetzte | umgesetzt",
+                        "to implement sth. , to relocate , to gross , to convert sth.",
                         "umgesetzt | - | -&nbsp;",
                         "implemented , converted",
                         "",
@@ -37183,7 +37173,7 @@
                     "fields": [
                         "die Aufhebung | die Aufhebungen",
                         "repeal , suspension , abolition",
-                        "aufheben | hob auf/aufhob | aufgehoben&nbsp;<div></div>",
+                        "aufheben | hob auf/aufhob | aufgehoben",
                         "to rescind sth. , to suspend sth. , to repeal sth.",
                         "aufgehoben | - | -",
                         "rescinded , abolished , repealed",
@@ -37200,7 +37190,7 @@
                         "das Entpuppen | -",
                         "",
                         "sich entpuppen | entpuppte sich/sich entpuppte | sich entpuppt",
-                        "to emerge from it cocon",
+                        "to emerge from it cocoon",
                         "",
                         "",
                         "",
@@ -37293,7 +37283,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "mäkeln | mäkelte | gemäkelt",
                         "to criticize",
@@ -37421,7 +37411,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "herunterputzen | putzte herunter/herunterputzte | heruntergeputzt",
                         "to blast sb. , to cut sb. down to size , to give an earful",
@@ -37519,7 +37509,7 @@
                     "fields": [
                         "die Verfassung | die Verfassungen",
                         "consitution , condition (state) , shape",
-                        "verfassen | verfasste | verfasst<br>",
+                        "verfassen | verfasste | verfasst",
                         "to draft , to compose , to author , to pen",
                         "verfasst | - | -",
                         "drafted , composed , constituted",
@@ -37632,7 +37622,7 @@
                         "die Austragung | die Austragungen",
                         "holding , staging (event)",
                         "sich austragen | trug sich aus/sich austrug | sich ausgetragen",
-                        "to stage sth. ( bout , championchip )<div>to hold sth. , to decide (conflict , fight)</div>",
+                        "to stage sth. ( bout , championship )<div>to hold sth. , to decide (conflict , fight)</div>",
                         "",
                         "",
                         "",
@@ -37677,7 +37667,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "derzeit &lt;dz.&gt; &lt;dzt.&gt;<br>",
+                        "derzeit &lt;dz.&gt; &lt;dzt.&gt;",
                         "currently , at present , for now",
                         "",
                         "",
@@ -37725,7 +37715,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -37741,7 +37731,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "der Abschnitt | die Abschnitte<br>",
+                        "der Abschnitt | die Abschnitte",
                         "stage , paragraph , segment",
                         "abschneiden | schnitt ab/abschnitt | abgeschnitten",
                         "to crop , to shop , to cut",
@@ -37773,7 +37763,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -37789,7 +37779,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "überschauen | überschaute | überschaut",
                         "to overlook sth. (view from above) , to survey",
@@ -37917,7 +37907,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -37965,7 +37955,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "nagen | nagte | genagt (an)",
                         "to gnaw , to nibble , to fester on",
@@ -37997,7 +37987,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "aufdunsen | dunste auf/aufgedunst | aufgedunsen",
                         "to bloat ( face , stomach )",
@@ -38095,7 +38085,7 @@
                     "fields": [
                         "das Verspeisen | -",
                         "",
-                        "verspeisen | verspeiste | verspeist<br>",
+                        "verspeisen | verspeiste | verspeist",
                         "to eat , to consume sth.",
                         "",
                         "",
@@ -38173,7 +38163,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -38191,7 +38181,7 @@
                     "fields": [
                         "die Ausmalung | - die Ausmalungen , das Ausmalen | -",
                         "painting ( room , interior )",
-                        "sich ausmalen | malte sich aus/sich ausmalte | sich ausgemalt<br>",
+                        "sich ausmalen | malte sich aus/sich ausmalte | sich ausgemalt",
                         "to imagine (sth.) , to picture (to oneself) , to envision sth.",
                         "",
                         "",
@@ -38317,7 +38307,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -38365,7 +38355,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "",
                         "",
@@ -38541,11 +38531,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "das Gegenüberstellen | -<br>",
+                        "das Gegenüberstellen | -",
                         "",
                         "gegenüberstellen | stellte gegenüber/gegenüberstellte | gegenübergestellt",
                         "to contrast , to oppose , to confront with",
-                        "gegenübergestellt | - | -&nbsp;",
+                        "gegenübergestellt | - | -",
                         "confronted with",
                         "",
                         "<a href=\"https://www.dict.cc/?s=gegen%C3%BCbergestellt\">https://www.dict.cc/?s=gegen%C3%BCbergestellt</a>"
@@ -38685,7 +38675,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "-",
+                        "",
                         "",
                         "ein Konto belasten | belastete ein Konto/ein Konto belastete | ein Konto belastet",
                         "to charge an account , to debit an account",
@@ -38819,7 +38809,7 @@
                         "",
                         "",
                         "",
-                        "",
+                        "Also trommel",
                         "<a href=\"https://www.dict.cc/?s=schlagzeug\">https://www.dict.cc/?s=schlagzeug</a><br>"
                     ],
                     "guid": "Os*IY=J-K[",
@@ -38849,7 +38839,7 @@
                         "movement , motion , excercise",
                         "bewegen | bewegte | bewegt",
                         "to move sth. , to stir sth. , to budge sth.",
-                        "beweglich | beweglicher | am beweglichsten ,<div>bewegbar | - | -&nbsp;<br></div>",
+                        "beweglich | beweglicher | am beweglichsten ,<div>bewegbar | - | -<br></div>",
                         "nimble , versatile , flexible",
                         "",
                         "<a href=\"https://www.dict.cc/?s=beweglich\">https://www.dict.cc/?s=beweglich</a><br>"
@@ -39185,7 +39175,7 @@
                         "",
                         "verunsichern | verunsicherte | verunsichert",
                         "to upset , to unsetle , to unnerve",
-                        "verunsichert | verunsicherter | am verunsichertsten/verunsichertesten",
+                        "verunsichert | verunsicherter | am verunsichertsten",
                         "uncertain , rattled , unsettled , insecure",
                         "",
                         "<a href=\"https://www.dict.cc/?s=verunsichern\">https://www.dict.cc/?s=verunsichern</a><br>"
@@ -39200,7 +39190,7 @@
                         "das Rosten | -",
                         "",
                         "rosten | rostete | gerostet",
-                        "to rust , to corrode , to oxidize",
+                        "to rust , to oxidize",
                         "gerostet | - | -",
                         "rusted , oxidized",
                         "",
@@ -39459,7 +39449,7 @@
                         "",
                         "gewitzt | gewitzter | am gewitztesten",
                         "quizzical , shred , cunning",
-                        "listig und gewitzt : clevel and smart",
+                        "listig und gewitzt : clever and smart",
                         "<a href=\"https://www.dict.cc/?s=gewitzt\">https://www.dict.cc/?s=gewitzt</a><br>"
                     ],
                     "guid": "cUo1p;i,WL",
@@ -39517,7 +39507,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Einteilung | die Einteilungen<br>",
+                        "die Einteilung | die Einteilungen",
                         "classification , arrangement",
                         "einteilen | teilte ein/einteilte | eingeteilt (in)",
                         "to ration , to graduate , to categorize",
@@ -39677,7 +39667,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Gesetzmäßigkeit | die Gesetzmäßigkeiten<br>",
+                        "die Gesetzmäßigkeit | die Gesetzmäßigkeiten",
                         "legitimacy , legality",
                         "",
                         "",
@@ -39693,11 +39683,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Anschaffung | die Anschaffungen<br>",
+                        "die Anschaffung | die Anschaffungen",
                         "purchase , acquistion",
                         "anschaffen | schaffte an/anschaffte | angeschafft",
                         "to purchase sth. , to acquire sth.&nbsp;",
-                        "angeschafft | - | -<br>",
+                        "angeschafft | - | -",
                         "purchased",
                         "",
                         "<a href=\"https://www.dict.cc/?s=anschaffung\">https://www.dict.cc/?s=anschaffung</a>"
@@ -39713,7 +39703,7 @@
                         "boundlessness",
                         "",
                         "",
-                        "schrankenlos | schrankenloser | am schrankenlosesten<br>",
+                        "schrankenlos | schrankenloser | am schrankenlosesten",
                         "unbridled , limitless , unguarded",
                         "",
                         "<a href=\"https://www.dict.cc/?s=schrankenlos\">https://www.dict.cc/?s=schrankenlos</a>"
@@ -39727,7 +39717,7 @@
                     "fields": [
                         "die Schranke | die Schranken",
                         "barriers , lists",
-                        "in Schranken halten<br>",
+                        "in Schranken halten",
                         "to restrain , to keep within bounds",
                         "",
                         "",
@@ -39757,7 +39747,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "der Ranzen | die Ranzen<br>",
+                        "der Ranzen | die Ranzen",
                         "knapsack , satchel",
                         "",
                         "",
@@ -39775,8 +39765,8 @@
                     "fields": [
                         "-",
                         "",
-                        "heiß ersehnt ist | war | gewesen<br>",
-                        "eagerly anticipated ,&nbsp;much longed-for<br>",
+                        "heiß ersehnt ist | war | gewesen",
+                        "eagerly anticipated ,&nbsp;much longed-for",
                         "",
                         "",
                         "",
@@ -39855,7 +39845,7 @@
                     "fields": [
                         "das Greifen | -",
                         "",
-                        "greifen | griff | gegriffen<br>",
+                        "greifen | griff | gegriffen",
                         "to grasp sth. , to grab",
                         "griffig | griffiger | am griffigsten",
                         "catchy , handy , antiskid",
@@ -39885,7 +39875,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "das Promovieren | -<br>",
+                        "das Promovieren | -",
                         "",
                         "promovieren | promovierte | promoviert",
                         "to confer a doctorate on sb.<br><div>to do one's doctorate ,&nbsp;to do one's Ph.D.<br></div>",
@@ -39953,7 +39943,7 @@
                         "",
                         "aufbringen | brachte auf/aufbrachte | aufgebracht",
                         "to infuriate sb. , to exasperate",
-                        "aufgebracht | aufgebrachter | am aufgebrachtesten<br>",
+                        "aufgebracht | aufgebrachter | am aufgebrachtesten",
                         "upset , incensed , furious , alarmed",
                         "",
                         "<a href=\"https://www.dict.cc/?s=aufgebracht\">https://www.dict.cc/?s=aufgebracht</a>"
@@ -39967,7 +39957,7 @@
                     "fields": [
                         "das Flitzen | -",
                         "",
-                        "flitzen | flitzte | geflitzt<br>",
+                        "flitzen | flitzte | geflitzt",
                         "to dart , to dash , to scamper",
                         "geflitzt | - | -",
                         "whizzed",
@@ -39997,14 +39987,14 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "das Schlendern | -<br>",
+                        "das Schlendern | -",
                         "",
                         "schlendern | schlenderte | geschlendert",
                         "to stroll , to saunter , to amble",
                         "geschlendert | - | -",
                         "roamed",
                         "",
-                        "<a href=\"https://www.dict.cc/?s=schlendern\">https://www.dict.cc/?s=schlendern</a><br>"
+                        "<a href=\"https://www.dict.cc/?s=schlendern\">https://www.dict.cc/?s=schlendern</a>"
                     ],
                     "guid": "uy4dS_,SQ,",
                     "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
@@ -40015,7 +40005,7 @@
                     "fields": [
                         "die Vermutung | die Vermutungen",
                         "assumption , conjecture , hunch",
-                        "vermuten | vermutete | vermutet<br>",
+                        "vermuten | vermutete | vermutet",
                         "to suppose , to assume sth. , to presume",
                         "vermutet | - | -",
                         "assumed , presumed , supposed",
@@ -40045,11 +40035,11 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "die Verwirrung | die Verwirrungen<br>",
+                        "die Verwirrung | die Verwirrungen",
                         "confusion , disarray",
                         "verwirren | verwirrte | verwirrt",
                         "to tangle , to distract , to confuse , to bamboozle",
-                        "verworren | verworrener | am verworrensten<br>",
+                        "verworren | verworrener | am verworrensten",
                         "confused , muddy , nebulous",
                         "",
                         "<a href=\"https://www.dict.cc/?s=verworren\">https://www.dict.cc/?s=verworren</a>"
@@ -40109,7 +40099,7 @@
                 {
                     "__type__": "Note",
                     "fields": [
-                        "der Eifer | -<br>",
+                        "der Eifer | -",
                         "zeal , mettle , fervor",
                         "",
                         "",
@@ -40777,8 +40767,1146 @@
                     "guid": "K$Y?[Py}*k",
                     "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
                     "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Bauschen | die Bauschen",
+                        "",
+                        "bauschen | bauschte | gebauscht",
+                        "to billow",
+                        "gebauscht | [selten] gebauschter | -",
+                        "puffy , bouffant",
+                        "",
+                        "<a href=\"https://de.pons.com/%C3%BCbersetzung/deutsch-englisch/bauschen\">https://www.dict.cc/?s=bauschen</a>"
+                    ],
+                    "guid": "QFa*~*^Ti(",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "<dt><div><br></div></dt>",
+                        "herbeireden | herbeiredete | herbeigeredet",
+                        "to talk sth into happening&nbsp;",
+                        "",
+                        "",
+                        "",
+                        "https://de.pons.com/%C3%BCbersetzung/deutsch-englisch/herbeireden%C2%AC"
+                    ],
+                    "guid": "d?N>{L.}jA",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Knüppel | die Knüppel",
+                        "cudgel , club , bludgeon",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=Kn%C3%BCppel\">https://www.dict.cc/?s=Knüppel</a>"
+                    ],
+                    "guid": "KI1y4?30H:",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Vorfreude | die Vorfreuden",
+                        "(pleasant) anticipation",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=vorfreude\">https://www.dict.cc/?s=vorfreude</a>"
+                    ],
+                    "guid": "I*,Y2XACF%",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Belieferung | die Belieferungen",
+                        "supply , delivery",
+                        "beliefern | belieferte | beliefert",
+                        "to supply , to provide sb.",
+                        "",
+                        "",
+                        "to supply the market : den Markt beliefern",
+                        "<a href=\"https://www.dict.cc/?s=beliefern\">https://www.dict.cc/?s=beliefern</a>"
+                    ],
+                    "guid": "MGV;m}aVQy",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Geborgenheit | die Geborgenheiten",
+                        "safety , concealment , protection , comfort , ease",
+                        "bergen | barg | geborgen",
+                        "to salvage , to hide , to recover",
+                        "geborgen | - | -",
+                        "secure , salvaged , contained",
+                        "",
+                        "https://www.dict.cc/?s=geborgenheit"
+                    ],
+                    "guid": "ns0#_8u.l`",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Widerlichkeit | die Widerlichkeiten",
+                        "loathsomeness, repulsiveness , obscenity",
+                        "",
+                        "",
+                        "widerlich | widerlicher | am widerlichsten",
+                        "yukky , disgusting",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=widerlichkeit\">https://www.dict.cc/?s=widerlichkeit</a>"
+                    ],
+                    "guid": "QWnED[2OZW",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Zeh | die Zehen",
+                        "toe",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=hetz+nicht\">https://www.dict.cc/?s=zeh</a>"
+                    ],
+                    "guid": "Q!c@VuOY$D",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Kneifen | -",
+                        "pinch",
+                        "kneifen | kniff | gekniffen (vor)",
+                        "to pinch sb.<br>to back down [due&nbsp;to lack of courage] ,&nbsp;to wuss out [Am.] [sl.]",
+                        "",
+                        "",
+                        "to wimp out of sth. : bei etw.<sup>Dat.</sup> kneifen [ugs.]<br>to chicken out (of sth.) : (vor etw.<sup>Dat.</sup>) kneifen [ugs.]",
+                        "<a href=\"https://www.dict.cc/?s=kneifen\">https://www.dict.cc/?s=kneifen</a>"
+                    ],
+                    "guid": "n;;Rj2CZAO",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "",
+                        "verballern | verballerte | verballert",
+                        "to squander sth. , to waste sth. (money etc.)",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=verballern\">https://www.dict.cc/?s=verballern</a>"
+                    ],
+                    "guid": "DJ+:xs7$Qm",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Streifen | die Streifen",
+                        "streak , stripe , flick",
+                        "streifen | streifte | gestreift",
+                        "to brush sb./sth. ( touch lightly ) , to streak , to graze",
+                        "gestreift | - | -",
+                        "striped , streaked , stripy",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=streifen\">https://www.dict.cc/?s=streifen</a>"
+                    ],
+                    "guid": "bE[+0v1PN#",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Vereinzelung | die Vereinzelungen",
+                        "isolation , separation",
+                        "vereinzeln | vereinzelte | vereinzelt",
+                        "to isolate , to separate",
+                        "vereinzelt | - | -",
+                        "scattered , odd , stray",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=vereinzelt\">https://www.dict.cc/?s=vereinzelt</a>"
+                    ],
+                    "guid": "jK)=bgod`c",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Schillern | -",
+                        "",
+                        "schillern | schillerte | geschillert",
+                        "to dazzle , to shimmer",
+                        "schillernd | schillernder | am schillerndsten",
+                        "iridescent , shimmering , opalescent",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=schillernd\">https://www.dict.cc/?s=schillernd</a>"
+                    ],
+                    "guid": "HC5&Y!)9]8",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "verübeln | verübelte | verübelt",
+                        "to resent , to blame sb. for sth. , to resent sb. for sth.",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=ver%C3%BCbeln\">https://www.dict.cc/?s=verübeln</a>"
+                    ],
+                    "guid": "n[+M[n|C{M",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Einmauern | -",
+                        "",
+                        "einmauern | mauerte ein/einmauerte | eingemauert",
+                        "to wall in , to brick in",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=einmauern\">https://www.dict.cc/?s=einmauern</a>"
+                    ],
+                    "guid": "py+ypOw/1v",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Reumütigkeit | -",
+                        "remorsefulness",
+                        "",
+                        "",
+                        "reumütig | reumütiger | am reumütigsten",
+                        "rueful , penitent , repentant",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=reum%C3%BCtig\">https://www.dict.cc/?s=reumütig</a>"
+                    ],
+                    "guid": "b#u0h3*c&v",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Hebel | die Hebel",
+                        "lever , leverage (stocks)",
+                        "hebeln | hebelte | gehebelt",
+                        "to leverage , to lever",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=hebel\">https://www.dict.cc/?s=hebel</a>"
+                    ],
+                    "guid": "m?]/xmMNpb",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Lungern | -",
+                        "",
+                        "lungern | lungerte | gelungert",
+                        "to linger , to loiter",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=lungern\">https://www.dict.cc/?s=lungern</a>"
+                    ],
+                    "guid": "i9lb@+-4?0",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Notwehr | -",
+                        "self-defence / defense",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "to act in self-defence : in Notwehr handeln",
+                        "<a href=\"https://www.dict.cc/?s=notwehr\">https://www.dict.cc/?s=notwehr</a>"
+                    ],
+                    "guid": "qmIu}eT1kT",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Indiz | die Indizien",
+                        "evidence , signs",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=indizien\">https://www.dict.cc/?s=indizien</a>"
+                    ],
+                    "guid": "ev?9%I$qys",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Plörre | die Plörren",
+                        "dishwater , gnat's piss",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=Plörre\">https://www.dict.cc/?s=Plörre</a>"
+                    ],
+                    "guid": "z5w_ReE[T0",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Rubbellos | die Rubbellose",
+                        "scratchcard , instant lottery card",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=Rubbellos\">https://www.dict.cc/?s=Rubbellos</a>"
+                    ],
+                    "guid": "tm+4BpX.Q7",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Locher | die Locher",
+                        "punch , puncher , hole punch",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=locher\">https://www.dict.cc/?s=locher</a>"
+                    ],
+                    "guid": "za9,k73_o4",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Streitsüchtigkeit | die Streitsüchtigkeiten",
+                        "contentiousness",
+                        "",
+                        "",
+                        "streitsüchtig | streitsüchtiger | am streitsüchtigsten",
+                        "cantankerous , argumentative , feisty",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=streits%C3%BCchtig\">https://www.dict.cc/?s=streitsüchtig</a>"
+                    ],
+                    "guid": "f&yj-RTYc}",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "",
+                        "",
+                        "engstirnig | engstirniger | am engstirnigsten",
+                        "bigoted, parochial , insular (narrow-minded)",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=engstirnig\">https://www.dict.cc/?s=engstirnig</a>"
+                    ],
+                    "guid": "e;>A.^U>SX",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "verklagen | verklagte | verklagt",
+                        "to sue sb. , to indict , to take to court",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=verklagen\">https://www.dict.cc/?s=verklagen</a>"
+                    ],
+                    "guid": "m)je%~5c)-",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Schlampigkeit | die Schlampigkeiten",
+                        "grubbiness ,&nbsp;slouchiness",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=schlampigkeit\">https://www.dict.cc/?s=schlampigkeit</a>"
+                    ],
+                    "guid": "sp%%OT#imZ",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Verwischen | - ,&nbsp;die Verwischung | die Verwischungen",
+                        "blurring",
+                        "verwischen | verwischte | verwischt",
+                        "to blur , to smear , to smudge",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=verwischen\">https://www.dict.cc/?s=verwischen</a>"
+                    ],
+                    "guid": "n)(B=tB9cP",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Etage | die Etagen",
+                        "floor , tier , storey",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=etage\">https://www.dict.cc/?s=etage</a>"
+                    ],
+                    "guid": "r5qRr)6Lc^",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "verinnerlichen | verinnerlichte | verinnerlicht",
+                        "to internalize sth.",
+                        "verinnerlicht | - | -",
+                        "internalized",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=verinnerlicht\">https://www.dict.cc/?s=verinnerlicht</a>"
+                    ],
+                    "guid": "q;h=5^-g1?",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Verrichten | - ,&nbsp;die Verrichtung | die Verrichtungen",
+                        "performance (tasks , duties) , execution (of tasks)",
+                        "verrichten | verrichtete | verrichtet",
+                        "to achieve sth. ,&nbsp;to do sth. [perform,&nbsp;execute] , to execute [duties,&nbsp; etc.]",
+                        "verrichtet | - | -&nbsp;",
+                        "performed",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=verrichten\">https://www.dict.cc/?s=verrichten</a>"
+                    ],
+                    "guid": "u4P`CZ:Zhs",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "auszupfen | zupfte aus/auszupfte | ausgezupft",
+                        "to pluck (out) (feathers)",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=auszupfen\">https://www.dict.cc/?s=auszupfen</a>"
+                    ],
+                    "guid": "qHz9J7#QZ1",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Krepieren | -",
+                        "",
+                        "krepieren | krepierte | krepiert",
+                        "to perish ,&nbsp;to die",
+                        "krepiert | - | -",
+                        "kicked the bucket {past-p} [coll.] [died]",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=krepieren\">https://www.dict.cc/?s=krepieren</a>"
+                    ],
+                    "guid": "l7#uR2xT^j",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Nie und nimmer!",
+                        "Never in a million years!<br>never ever {adv}",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=Nie+und+nimmer%21\">https://www.dict.cc/?s=Nie+und+nimmer!</a>"
+                    ],
+                    "guid": "v!^a^KF@S-",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Lässigkeit | die Lässigkeiten",
+                        "nonchalance ,&nbsp;laxity",
+                        "",
+                        "",
+                        "lässig | lässiger | am lässigsten",
+                        "casual , casually , nonchalant",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=l%C3%A4ssig\">https://www.dict.cc/?s=lässig</a>"
+                    ],
+                    "guid": "gykDm[bo,G",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Ich habs nicht eilig.",
+                        "I'm in no hurry.",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=ich+habs+nicht+eilig\">https://www.dict.cc/?s=ich+habs+nicht+eilig</a>"
+                    ],
+                    "guid": "I-gpzOf:6`",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Ködern | -",
+                        "",
+                        "ködern | köderte | geködert",
+                        "to lure , to bait , to entice",
+                        "geködert | - | -&nbsp;",
+                        "lured",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=k%C3%B6dern\">https://www.dict.cc/?s=ködern</a>"
+                    ],
+                    "guid": "Oz*)UhUx~2",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Bissigkeit | die Bissigkeiten",
+                        "bitchiness , acidness",
+                        "",
+                        "",
+                        "bissig | bissiger | am bissigsten",
+                        "snappy , caustic , tart , snappy",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=bissig\">https://www.dict.cc/?s=bissig</a>"
+                    ],
+                    "guid": "Pmk<[m5^-~",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Pfeiler | die Pfeiler",
+                        "pillar , column",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=pfeiler\">https://www.dict.cc/?s=pfeiler</a>"
+                    ],
+                    "guid": "dP2WTGJm*u",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Gewalttätigkeit | die Gewalttätigkeiten",
+                        "violence , outrage , aggro",
+                        "",
+                        "",
+                        "gewalttätig | gewalttätiger | am gewalttätigsten",
+                        "violent , thuggish",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=gewaltt%C3%A4tig\">https://www.dict.cc/?s=gewalttätig</a>"
+                    ],
+                    "guid": "C*rySB<Nr=",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "",
+                        "",
+                        "böig | böiger | am böigsten",
+                        "choppy , gusty , squally",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=b%C3%B6ig\">https://www.dict.cc/?s=böig</a>"
+                    ],
+                    "guid": "n!?{,9{t~t",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Absonderung | die Absonderungen",
+                        "segregation , discharge , reject",
+                        "absondern | sonderte ab/absonderte | abgesondert",
+                        "to seclude , to sequester , to ooze",
+                        "abgesondert | abgesonderter | am abgesondertsten",
+                        "segregated , secluded , sequestered",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=absondern\">https://www.dict.cc/?s=absondern</a>"
+                    ],
+                    "guid": "t#R,0Zlab=",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Knabbern | -",
+                        "",
+                        "knabbern | knabberte | geknabbert",
+                        "to nibble , to gnaw at. sth.",
+                        "knabbernd | - | -",
+                        "nibbling",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=knabbern\">https://www.dict.cc/?s=knabbern</a>"
+                    ],
+                    "guid": "r/,P,p10ko",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "",
+                        "",
+                        "sanft | sanfter | am sanftesten",
+                        "gentle , mellow , smooth",
+                        "to deal gently with sb. : mit jdm. sanft umgehen<br>to blow gently : sanft wehen<br>to brake gently : sanft abbremsen",
+                        "<a href=\"https://www.dict.cc/?s=sanft\">https://www.dict.cc/?s=sanft</a>"
+                    ],
+                    "guid": "K7v:a:4#?G",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Abstimmung | die Abstimmungen",
+                        "reconciliation , ballot , polling",
+                        "abstimmen | stimmte ab/abstimmte | abgestimmt",
+                        "to ballot , to vote , to reconcile",
+                        "abgestimmt | - | -",
+                        "aligned , attuned",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=abstimmen\">https://www.dict.cc/?s=abstimmen</a>"
+                    ],
+                    "guid": "sQBc[{z5Lo",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Nachzügler | die Nachzügler",
+                        "lagger , laggard",
+                        "nachzügeln | zügelte nach | nachgezügelt",
+                        "to straggle ( linger behind )",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=Nachz%C3%BCgler\">https://www.dict.cc/?s=Nachzügler</a>"
+                    ],
+                    "guid": "E7o[oja&0_",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Omen | die Omen/Omina",
+                        "omen , portent",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "omen :&nbsp;Vorzeichen {n}",
+                        "<a href=\"https://www.dict.cc/?s=omen\">https://www.dict.cc/?s=omen</a>"
+                    ],
+                    "guid": "wg`5Mp1O!Q",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Onanieren | -",
+                        "",
+                        "onanieren | onanierte | onaniert",
+                        "to fap , to masturbate , to jack off",
+                        "onaniert | - | -",
+                        "masturbated",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=onanieren\">https://www.dict.cc/?s=onanieren</a>"
+                    ],
+                    "guid": "yD|^g[z=-",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Abnehmen | -",
+                        "",
+                        "abnehmen | nahm ab/abnahm | abgenommen",
+                        "to decrease , to drop , to diminish",
+                        "abgenommen | - | - , abnehmend | - | -",
+                        "declining , decreasing , waning , shrinking",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=abnehmend\">https://www.dict.cc/?s=abnehmend</a>"
+                    ],
+                    "guid": "oB`WS)F*`W",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Wackeligkeit | die Wackeligkeiten",
+                        "shakiness",
+                        "",
+                        "",
+                        "wackelig | wackeliger | am wackeligsten",
+                        "rickety , wobbly , ramshackle",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=wackelig\">https://www.dict.cc/?s=wackelig</a>"
+                    ],
+                    "guid": "i=RE]M((]L",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Zerrung | die Zerrungen",
+                        "strain , pulled muscle",
+                        "zerren | zerrte | gezerrt (an)",
+                        "to tug , to wrench , to drag sb./sth. , to pull",
+                        "gezerrt | - | -&nbsp;",
+                        "jerked , tugged , strained",
+                        "to tear at sth. : an etw.<sup>Dat.</sup> zerren<br>to tug at sth. : an etw.<sup>Dat.</sup> zerren",
+                        "<a href=\"https://www.dict.cc/?s=zerren\">https://www.dict.cc/?s=zerren</a>"
+                    ],
+                    "guid": "Lw&D]!i+gH",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Würgemal | die Würgemale",
+                        "strangulation mark",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=W%C3%BCrgemal\">https://www.dict.cc/?s=Würgemal</a>"
+                    ],
+                    "guid": "f%w`,{|HX0",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "Würg! [ugs.]",
+                        "Gag! [coll.] ,&nbsp;Urgh! [used&nbsp;to express disgust]",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "https://www.dict.cc/?s=W%C3%BCrg"
+                    ],
+                    "guid": "za1XI(j;^,",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Wollüstigkeit | -",
+                        "sensualism , sensuality",
+                        "",
+                        "",
+                        "wollüstig | wollüstiger | am wollüstigsten",
+                        "ecstatic , sensual , lascivious",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=st%C3%B6hnen\">https://www.dict.cc/?s=woll%C3%BCstig</a>"
+                    ],
+                    "guid": "Pu##a%/p2~",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Wichse | die Wichsen",
+                        "jizz , spunk , cum",
+                        "wichsen | wichste | gewichst",
+                        "to jerk , to wank , to fap<br>to polish",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=wichsen\">https://www.dict.cc/?s=wichsen</a>"
+                    ],
+                    "guid": "otw!K}Xnt=",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "abturnen | turnte ab/abturnte | abgeturnt",
+                        "to turn sb. off",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=abturnen\">https://www.dict.cc/?s=abturnen</a>"
+                    ],
+                    "guid": "v4>c,!dTSM",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "abtörnen | törnte ab/abtörnte | abgetörnt",
+                        "to turn sb. off",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=abt%C3%B6rnen\">https://www.dict.cc/?s=abtörnen</a>"
+                    ],
+                    "guid": "J0ASY%a-jF",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Abtönung | die Abtönungen",
+                        "shade ,&nbsp;shading",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "[Farbton]",
+                        "<a href=\"https://www.dict.cc/?s=Abtönung\">https://www.dict.cc/?s=Abtönung</a>"
+                    ],
+                    "guid": "y!ngkXg[V0",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "aufsprießen | sproß auf | aufgesprossen",
+                        "to sprout",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=aufsprie%C3%9Fen\">https://www.dict.cc/?s=aufsprießen</a>"
+                    ],
+                    "guid": "K6_r,;RGRa",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Eroberung | die Eroberungen",
+                        "conquest ,capture",
+                        "erobern | eroberte | erobert",
+                        "to conquer , to seize",
+                        "erobert | - | -",
+                        "conquered",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=erobern\">https://www.dict.cc/?s=erobern</a>"
+                    ],
+                    "guid": "d:6x`D.j55",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "der Steppenläufer | die Steppenläufer",
+                        "tumbleweed",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=steppenl%C3%A4ufer\">https://www.dict.cc/?s=steppenläufer</a>"
+                    ],
+                    "guid": "qV}i(og_g0",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Vielerlei | die Vielerleis",
+                        "various , of many kinds",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "for a multiplicity of reasons {adv} : aus vielerlei Gründen",
+                        "<a href=\"https://www.dict.cc/?s=vielerlei\">https://www.dict.cc/?s=vielerlei</a>"
+                    ],
+                    "guid": "r%C++&a%2e",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Blamage | die Blamagen",
+                        "disgrace ,&nbsp;humiliation",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "jdm. eine Blamage ersparen :&nbsp;to save / spare sb.'s blushes [Br.] [hum.]",
+                        "<a href=\"https://www.dict.cc/?s=blamage\">https://www.dict.cc/?s=blamage</a>"
+                    ],
+                    "guid": "BtxnH-DtWo",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Verdursten | -",
+                        "",
+                        "verdursten | verdurstete | verdurstet",
+                        "to die of thirst ,&nbsp;to be parched",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=verdursten\">https://www.dict.cc/?s=verdursten</a>"
+                    ],
+                    "guid": "ypIN!,o0Wj",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Schinderei | die Schindereien",
+                        "drudgery ,&nbsp;slog",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "Heard in the context of time , so zeit schinderei ... ?",
+                        "<a href=\"https://www.dict.cc/?s=schinderei\">https://www.dict.cc/?s=schinderei</a>"
+                    ],
+                    "guid": "nZIO*Z,@H+",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Knochenarbeit | -",
+                        "backbreaking work",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=Knochenarbeit\">https://www.dict.cc/?s=Knochenarbeit</a>"
+                    ],
+                    "guid": "i/UA#5{8&T",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Auskoppeln | -",
+                        "",
+                        "auskoppeln | koppelte aus/auskoppelte | ausgekoppelt",
+                        "to decouple , to disconnect",
+                        "",
+                        "",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=auskoppeln\">https://www.dict.cc/?s=auskoppeln</a>"
+                    ],
+                    "guid": "JPObp56&A~",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Verkneifen | -",
+                        "",
+                        "sich verkneifen | verkniff | verkniffen",
+                        "to stop oneself from saying / doing sth. ,<br>to deny oneself sth.",
+                        "",
+                        "",
+                        "sich<sup>Dat.</sup> etw.<sup>Akk.</sup> verkneifen [ugs.] [nicht&nbsp;sagen oder tun]",
+                        "<a href=\"https://www.dict.cc/?s=verkneifen\">https://www.dict.cc/?s=verkneifen</a>"
+                    ],
+                    "guid": "F,xRXS5xp6",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "-",
+                        "",
+                        "",
+                        "",
+                        "derb | derber | am derbsten",
+                        "coarse ,&nbsp;churlish ,&nbsp;rough",
+                        "",
+                        "<a href=\"https://www.dict.cc/?s=derb\">https://www.dict.cc/?s=derb</a>"
+                    ],
+                    "guid": "u>y:<x/Pj]",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "das Aufhalten | -",
+                        "",
+                        "aufhalten | hielt auf/aufhielt | aufgehalten (bei)",
+                        "to suspend sth. ,&nbsp;to impede sth. ,&nbsp;to hinder sth",
+                        "",
+                        "",
+                        "to stay [at&nbsp;a place] : sich aufhalten [Ort]<br>to linger : sich aufhalten [sich&nbsp;verzögern]<br>to reside : sich aufhalten [seinen&nbsp;Wohnsitz haben]",
+                        "<a href=\"https://www.dict.cc/?s=aufhalten\">https://www.dict.cc/?s=aufhalten</a>"
+                    ],
+                    "guid": "qa|nZ!5R7/",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "fields": [
+                        "die Scheuer | die Scheuern",
+                        "scrubbing ,&nbsp;rubbing",
+                        "scheuern | scheuerte | gescheuert",
+                        "to chafe ,&nbsp;to scrub ( clean )",
+                        "",
+                        "",
+                        "to chafe sb.'s skin : auf jds. Haut scheuern<br>to scrub the deck : das Deck scheuern",
+                        "<a href=\"https://www.dict.cc/?s=scheuern\">https://www.dict.cc/?s=scheuern</a>"
+                    ],
+                    "guid": "M:7MMRwBS2",
+                    "note_model_uuid": "e9708670-7703-11ec-8fc3-709cd152b732",
+                    "tags": []
                 }
-            ]
+            ],
+            "reviewLimit": null,
+            "reviewLimitToday": null
         }
     ],
     "crowdanki_uuid": "e962aad2-7703-11ec-8fc3-709cd152b732",
@@ -40787,6 +41915,7 @@
         {
             "__type__": "DeckConfig",
             "autoplay": true,
+            "buryInterdayLearning": false,
             "crowdanki_uuid": "e962b072-7703-11ec-8fc3-709cd152b732",
             "dyn": false,
             "interdayLearningMix": 0,
@@ -40814,7 +41943,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 999,
+                "perDay": 2,
                 "separate": true
             },
             "newGatherPriority": 0,
@@ -40838,7 +41967,8 @@
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "e96318d2-7703-11ec-8fc3-709cd152b732",
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "75ef5a6a-8c23-11ed-9550-709cd152b732",
             "dyn": false,
             "interdayLearningMix": 0,
             "lapse": {
@@ -40850,8 +41980,8 @@
                 "minInt": 1,
                 "mult": 0.0
             },
-            "maxTaken": 999,
-            "name": "Deutsch - Grammatik",
+            "maxTaken": 60,
+            "name": "Off ( New )",
             "new": {
                 "bury": false,
                 "delays": [
@@ -40865,7 +41995,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 99,
+                "perDay": 0,
                 "separate": true
             },
             "newGatherPriority": 0,
@@ -40879,16 +42009,17 @@
                 "fuzz": 0.05,
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
-                "maxIvl": 36500,
+                "maxIvl": 9999,
                 "minSpace": 1,
                 "perDay": 9999
             },
             "reviewOrder": 0,
-            "timer": 1
+            "timer": 0
         },
         {
             "__type__": "DeckConfig",
             "autoplay": false,
+            "buryInterdayLearning": false,
             "crowdanki_uuid": "e96c0582-7703-11ec-8fc3-709cd152b732",
             "dyn": false,
             "interdayLearningMix": 0,
@@ -40932,7 +42063,7 @@
                 "ivlFct": 1.0,
                 "maxIvl": 60,
                 "minSpace": 1,
-                "perDay": 999
+                "perDay": 0
             },
             "reviewOrder": 0,
             "timer": 1
@@ -40940,6 +42071,7 @@
         {
             "__type__": "DeckConfig",
             "autoplay": false,
+            "buryInterdayLearning": false,
             "crowdanki_uuid": "e96f4260-7703-11ec-8fc3-709cd152b732",
             "dyn": false,
             "interdayLearningMix": 0,
@@ -40967,7 +42099,7 @@
                     0
                 ],
                 "order": 1,
-                "perDay": 0,
+                "perDay": 4,
                 "separate": true
             },
             "newGatherPriority": 0,
@@ -40981,7 +42113,7 @@
                 "fuzz": 0.05,
                 "hardFactor": 1.2,
                 "ivlFct": 1.0,
-                "maxIvl": 90,
+                "maxIvl": 180,
                 "minSpace": 1,
                 "perDay": 9999
             },
@@ -40996,6 +42128,8 @@
     "media_files": [],
     "mid": 1597820644292,
     "name": "Deutsch",
+    "newLimit": null,
+    "newLimitToday": null,
     "note_models": [
         {
             "__type__": "NoteModel",
@@ -41003,6 +42137,7 @@
             "css": "/* ----- START : Base Css ----- */\n\nhtml {\n\toverflow   : scroll;\n\toverflow-x : hidden;\n}\n\n.card{\n\tbackground-color : transparent;\n\tmargin           : auto;\n\tmax-width: 500px;\n}\n\n:root {\n\t--label-color      : #181616;\n\t--label-font-color : #fff;\n\t--label-font-size  : 14px;\n\t--box-bg-color     : #b9b9b9;\n\t--box-font-color   : #181616;\n\t--box-font-size    : 22px;\n\t--text-font        : Garamond, Times New Roman, serif;\n}\n\n@media screen and (max-width: 600px){\n\n       \n\t\n\t/* android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n\n\ttr { display: table;  width:100%;}               \n\ttd { display: table-row;  }\n\ntable {\n\tdisplay         : inline-table;\n\twidth           : 100%;\n\tpadding         : 0px 0px 0px 0px;\n\tmargin          : 0px 0px 0px 0px;\n\tborder-spacing  : 10px;\n\tborder-collapse : separate;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n.replay-button svg {\n\twidth  : 2rem;\n\theight : 2rem;\n}\n\n.replay-button svg circle {\n\tfill    : transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n\tfill    : black;\n\tstroke : black;\n}\n\n.box\n{\n\tpadding          : 0px 0px 30px 0px;\n\tmargin           : 0px;\n\tmin-height       : 300px;\n\twidth            : auto;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--box-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : var(--box-bg-color);\n\n}\n\n.box_contents\n{\n\tpadding : 0px 0px 40px 0px;\n\tmargin  : 0px 20px 0px 20px;\n\tborder  : 0px solid black;\n}\n\n.label\n{\n\twidth            : auto;\n\tpadding          : 8px 10px 8px 10px;\n\tfloat            : left;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--label-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : var(--label-font-color);;\n\tbackground-color : var(--label-color);\n}\n\n/* ----- END : Base Css ----- */\n",
             "flds": [
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Noun",
                     "ord": 0,
@@ -41011,6 +42146,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Verb",
                     "ord": 1,
@@ -41019,6 +42155,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Preposition",
                     "ord": 2,
@@ -41027,6 +42164,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Audio",
                     "ord": 3,
@@ -41035,6 +42173,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Translation",
                     "ord": 4,
@@ -41043,6 +42182,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Sentence",
                     "ord": 5,
@@ -41051,6 +42191,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Notes",
                     "ord": 6,
@@ -41114,6 +42255,7 @@
             "css": "/* ----- START : Base Css ----- */\n\nhtml {\n\toverflow   : scroll;\n\toverflow-x : hidden;\n}\n\n.card{\n\tbackground-color : transparent;\n\tmargin           : auto;\n\tmax-width:550px;\n}\n\n:root {\n\t--label-color      : #181616;\n\t--label-font-color : #fff;\n\t--label-font-size  : 14px;\n\t--box-bg-color     : #b9b9b9;\n\t--box-font-color   : #181616;\n\t--box-font-size    : 22px;\n\t--text-font        : Garamond, Times New Roman, serif;\n}\n\n@media screen and (max-width: 600px){\n\n         \n\t\n\t/* android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n\n\ttr { display: table;  width:100%;}               \n\ttd { display: table-row;  }  \n\ntable {\n\tdisplay         : inline-table;\n\twidth           : 100%;\n\tpadding         : 0px 0px 0px 0px;\n\tmargin          : 0px 0px 0px 0px;\n\tborder-spacing  : 10px;\n\tborder-collapse : separate;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n.replay-button svg {\n\twidth  : 2rem;\n\theight : 2rem;\n}\n\n.replay-button svg circle {\n\tfill    : transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n\tfill    : black;\n\tstroke : black;\n}\n\n.box\n{\n\tpadding          : 0px 0px 30px 0px;\n\tmargin           : 0px;\n\tmin-height       : 300px;\n\twidth            : 50%;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--box-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : var(--box-bg-color);\n\n}\n\n.box_contents\n{\n\tpadding : 0px 0px 40px 0px;\n\tmargin  : 0px 20px 0px 20px;\n\tborder  : 0px solid black;\n}\n\n.label\n{\n\twidth            : auto;\n\tpadding          : 8px 10px 8px 10px;\n\tfloat            : left;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--label-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : var(--label-font-color);;\n\tbackground-color : var(--label-color);\n}\n\n/* ----- END : Base Css ----- */\n\n",
             "flds": [
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Adjective",
                     "ord": 0,
@@ -41122,6 +42264,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Preposition",
                     "ord": 1,
@@ -41130,6 +42273,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Case",
                     "ord": 2,
@@ -41138,6 +42282,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Audio",
                     "ord": 3,
@@ -41146,6 +42291,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Translation",
                     "ord": 4,
@@ -41154,6 +42300,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Sentence",
                     "ord": 5,
@@ -41162,6 +42309,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Notes",
                     "ord": 6,
@@ -41170,6 +42318,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Image",
                     "ord": 7,
@@ -41233,6 +42382,7 @@
             "css": "/* ----- START : Base Css ----- */\n\nhtml {\n\toverflow   : scroll;\n\toverflow-x : hidden;\n}\n\n.card{\n\tbackground-color : transparent;\n\tmargin           : auto;\n\tmax-width        : 500px;\n}\n\n:root {\n\t--label-color      : #181616;\n\t--label-font-color : #fff;\n\t--label-font-size  : 14px;\n\t--box-bg-color     : #b9b9b9;\n\t--box-font-color   : #181616;\n\t--box-font-size    : 22px;\n\t--text-font        : Garamond, Times New Roman, serif;\n}\n\n@media screen and (max-width: 600px){\n\n\n\t\n\t/* android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n\n\ttr { display: table;  width:100%;}\n\ttd { display: table-row;  }\n\ntable {\n\tdisplay         : inline-table;\n\twidth           : 100%;\n\tpadding         : 0px 0px 0px 0px;\n\tmargin          : 0px 0px 0px 0px;\n\tborder-spacing  : 10px;\n\tborder-collapse : separate;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n.replay-button svg {\n\twidth  : 2rem;\n\theight : 2rem;\n}\n\n.replay-button svg circle {\n\tfill    : transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n\tfill    : black;\n\tstroke : black;\n}\n\n.box\n{\n\tpadding          : 0px 0px 30px 0px;\n\tmargin           : 0px;\n\tmin-height       : 300px;\n\twidth            : auto;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--box-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : var(--box-bg-color);\n\n}\n\n.box_contents\n{\n\tpadding : 0px 0px 40px 0px;\n\tmargin  : 0px 20px 0px 20px;\n\tborder  : 0px solid black;\n}\n\n.label\n{\n\twidth            : auto;\n\tpadding          : 8px 10px 8px 10px;\n\tfloat            : left;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--label-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : var(--label-font-color);\n\tbackground-color : var(--label-color);\n}\n\n/* ----- END : Base Css ----- */\n\n\n\n\n\n<table>\n\n\t<tr>\n\n\t\t{{#text}} \n\t\t\t<td class=\"box\" valign=\"top\">\n\t\t\t\t<div class=\"label\">\t          text\t  </div> <br><br>\n\t\t\t\t<div class=\"box_contents\"> {{ text }} </div>\n\t\t\t</td>\n\t\t{{/text}}\n\n\t</tr>\n\n</table>",
             "flds": [
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Verb",
                     "ord": 0,
@@ -41241,6 +42391,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Preposition",
                     "ord": 1,
@@ -41249,6 +42400,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Audio",
                     "ord": 2,
@@ -41257,6 +42409,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Case",
                     "ord": 3,
@@ -41265,6 +42418,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Translation",
                     "ord": 4,
@@ -41273,6 +42427,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Sentence",
                     "ord": 5,
@@ -41281,6 +42436,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Notes",
                     "ord": 6,
@@ -41344,6 +42500,7 @@
             "css": "html { overflow: scroll; overflow-x: hidden; }\n\n.card{\n\tbackground-color : transparent;\n\tmax-width: 550px;\n\tmargin: auto;\n\tmargin-top : 30px;\n}\n\n/* #b9b9b9 , #D0D0D0 , #e7e7e7 */\n.box\n{\n\tpadding          : 30px;\n\tfont-family      : Garamond, Times New Roman, serif;\n\tfont-size        : 20px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : black;\n\tbackground-color : #b9b9b9;\n}\n\n.label\n{\n\tmargin           : 0px 0px 0px 0px;\n\tpadding          : 2px ;\n\tfont-family      : Garamond, Times New Roman, serif;\n\tfont-size        : 16px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : white;\n\tbackground-color : #181616;\n}\n\n.zeit_form_box\n{\n\tpadding          : 10px 0px 10px 10px;\n\tmargin           : 0px;\n\tfont-family      : Garamond, Times New Roman, serif;\n\tfont-size        : 20px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : black;\n\tbackground-color : #b9b9b9;\n}\n\n.zeit_form_label\n{\n\tmargin           : 0px 0px 0px 0px;\n\tpadding          : 7px;\n\tfont-family      : Garamond, Times New Roman, serif;\n\tfont-size        : 20px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tfont-weight      : 700;\n\tcolor            : white;\n\tbackground-color : #464444;\n}\n\n.zeit_form\n{\n\tmargin           : 0px;\n\tpadding          : 0px 0px 0px px;\n\tfont-family      : Garamond, Times New Roman, serif;\n\tfont-size        : 20px;\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : left;\n\tfont-weight      : 500;\n\tcolor            : black;\n\tbackground-color : #b9b9b9;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n\n@media only screen and (max-width: 600px)\n{\n/* CSS for phones , cause android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n.replay-button svg {\n  width: 30px;\n  height: 30px;\n}\n\n.replay-button svg circle {\n  fill: transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n  stroke: black;\n  fill: black;\n}\n\ntable {\n  table-layout: fixed ;\n  width: 100% ;\n\tpadding:0px;\n\tmargin:0px;\n}\n\n.table_cell{\n    display:table-cell;\n    width:120px;\n\t\tfloat:left;\n}",
             "flds": [
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Verb",
@@ -41353,6 +42510,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Präsens",
                     "ord": 1,
@@ -41361,6 +42519,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Präteritum",
                     "ord": 2,
@@ -41369,6 +42528,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Perfekt",
                     "ord": 3,
@@ -41377,6 +42537,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Übersetzung",
                     "ord": 4,
@@ -41385,6 +42546,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Beispielsatz",
@@ -41394,6 +42556,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Notes",
                     "ord": 6,
@@ -41475,6 +42638,7 @@
             "css": "/* ----- START : Base Css ----- */\n\nhtml {\n\toverflow   : scroll;\n\toverflow-x : hidden;\n}\n\n.card{\n\tbackground-color : transparent;\n\tmargin           : auto;\n\tmax-width        : auto;\n}\n\n:root {\n\t--label-color      : #181616;\n\t--label-font-color : #fff;\n\t--label-font-size  : 14px;\n\t--box-bg-color     : #b9b9b9;\n\t--box-font-color   : #181616;\n\t--box-font-size    : 22px;\n\t--text-font        : Garamond, Times New Roman, serif;\n}\n\n@media screen and (max-width: 600px){\n\n\ttr { display: table;  width:100%;}\n\ttd { display: table-row;  }\n\t\n\t/* android TTS shows the text inline instead of a play button*/\n\t.audio\n\t{ \n\t\tdisplay    : none;\n\t\tvisibility : hidden;\n\t}\n}\n\ntable {\n\tdisplay         : inline-table;\n\twidth           : 100%;\n\tpadding         : 0px 0px 0px 0px;\n\tmargin          : 0px 0px 0px 0px;\n\tborder-spacing  : 10px;\n\tborder-collapse : separate;\n}\n\n.audio\n{\n\tdisplay : inline;\n}\n\n.replay-button svg {\n\twidth  : 2rem;\n\theight : 2rem;\n}\n\n.replay-button svg circle {\n\tfill    : transparent;\n\tstroke : transparent;\n}\n.replay-button svg path {\n\tfill    : black;\n\tstroke : black;\n}\n\n.box\n{\n\tpadding          : 0px 0px 30px 0px;\n\tmargin           : 0px;\n\tmin-height       : 300px;\n\twidth            : auto;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--box-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\ttext-align       : center;\n\tcolor            : var(--box-font-color);\n\tbackground-color : var(--box-bg-color);\n\n}\n\n.box_contents\n{\n\tpadding : 0px 0px 40px 0px;\n\tmargin  : 0px 20px 0px 20px;\n\tborder  : 0px solid black;\n}\n\n.label\n{\n\twidth            : auto;\n\tpadding          : 8px 10px 8px 10px;\n\tfloat            : left;\n\tfont-family      : var(--text-font);\n\tfont-size        : var(--label-font-size);\n\tfont-style       : normal;\n\tfont-variant     : normal;\n\tfont-weight      : 700;\n\ttext-align       : center;\n\ttext-transform   : uppercase;\n\tcolor            : var(--label-font-color);\n\tbackground-color : var(--label-color);\n}\n\n/* ----- END : Base Css ----- */\n.box\n{\n\twidth            : 33%;\n}",
             "flds": [
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Nomen",
@@ -41484,6 +42648,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Noun Translation",
                     "ord": 1,
@@ -41492,6 +42657,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Verb Versions",
@@ -41501,6 +42667,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Verb Translation",
                     "ord": 3,
@@ -41509,6 +42676,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Adj Versions",
@@ -41518,6 +42686,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "name": "Adjective Translation",
                     "ord": 5,
@@ -41526,6 +42695,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Notes",
@@ -41535,6 +42705,7 @@
                     "sticky": false
                 },
                 {
+                    "description": "",
                     "font": "Liberation Sans",
                     "media": [],
                     "name": "Sources",
@@ -41598,5 +42769,7 @@
             "vers": []
         }
     ],
-    "notes": []
+    "notes": [],
+    "reviewLimit": null,
+    "reviewLimitToday": null
 }
