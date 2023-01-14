@@ -1,0 +1,233 @@
+more deck stats and time left {{{
+	
+{
+    "CountTimesNew": 2,
+    "LearnColor": "black",
+    "NewColor": "black",
+    "ReviewColor": "black",
+    "TotalColor": "transparent",
+    "TotalDueColor": "black"
+}
+
+}}}
+
+minimal buttons {{{
+	
+/* All buttons at the bottom of the review screen
+   (including the "Edit" and "More" button) */
+button {
+    height: 100px !important;
+	width: 10vw !important;
+    font-size: medium !important;
+	font-weight: bold;
+	text-align:center;
+    border: none;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+	margin: 0;
+	margin-bottom: -2px;
+}
+
+/* the "Show Answer" button */
+#ansbut {
+    width: 78vw !important;
+    background-color: #181616 !important;
+	
+}
+
+/* All rating buttons */
+#middle button {
+    margin-left: -2px;
+    margin-right: -2px;
+    color: white;
+    text-shadow: -1px 0 rgba(101, 101, 101, 0.19), 0 1px rgba(101, 101, 101, 0.15), 1px 0 #65656526, 0 -1px #65656521;
+}
+
+/* the "Good" button */
+#defease {
+    background-color: #181616 !important;
+}
+
+/* the "Again" button */
+button[onclick*="ease1"]:not(#defease) {
+    background-color: #181616 !important;
+}
+
+/* the "Hard" button */
+button[onclick*="ease2"]:not(#defease) {
+    background-color: #181616 !important;
+}
+
+/* the "Easy" button */
+button[onclick*="ease3"]:not(#defease),
+button[onclick*="ease4"]:not(#defease) {
+    background-color: #181616 !important;
+}
+
+/* colorize ReMemorize buttons */
+.rem_time1 ~ button {
+    background-color: #181616 !important;
+}
+.rem_time2 ~ button {
+    background-color: #181616 !important;
+}
+.rem_time3 ~ button {
+    background-color: #181616 !important;
+}
+.rem_time4 ~ button {
+    background-color: #181616 !important;
+}
+.rem_time5 ~ button {
+    background-color: #181616 !important;
+}
+.rem_error ~ button {
+    background-color: red !important;
+}
+
+
+
+/* the "Edit" button */
+button[onclick*="edit"] {
+}
+
+/* the "More" button */
+button[onclick*="more"] {
+}
+
+
+
+}}}
+
+enhance main window {{{
+	
+
+	
+	{
+    "book symbol": "{",
+    "cap value": null,
+    "color empty": "black",
+    "color empty descendant": "black",
+    "color zero": false,
+    "columns": [
+        {
+            "absolute": true,
+            "color": "#CC0000",
+            "description": " (Learning) new cards (again) , or forgotten recently",
+            "header": "<p style=\" text-align: center;  color: white;  position: relative;  padding: 1rem;  background-color: #181616; cursor: pointer;  min-width: 10em; display: inline-block; \">Learning</p>",
+            "name": "learning card",
+            "overlay": "",
+            "percent": false,
+            "present": true,
+            "subdeck": true
+        },
+        {
+            "absolute": true,
+            "color": "#ff7e00",
+            "description": " (New) new cards today",
+            "header": "<p style=\" text-align: center;  color: white;  position: relative;  padding: 1rem;  background-color: #181616; cursor: pointer;  min-width: 10em; display: inline-block; \">New</p>",
+            "name": "new today",
+            "overlay": "",
+            "percent": false,
+            "present": true,
+            "subdeck": true
+        },
+        {
+            "absolute": false,
+            "color": "#73D216",
+            "description": " (Due) due today (allowed by options)",
+            "header": "<p style=\" text-align: center;  color: white;  position: relative;  padding: 1rem;  background-color: #181616; cursor: pointer;  min-width: 10em; display: inline-block; \">Due</p>",
+            "name": "review today",
+            "overlay": "",
+            "percent": false,
+            "present": false,
+            "subdeck": true
+        },
+        {
+            "absolute": true,
+            "color": "#181616",
+            "description": " Review cards you will see today (and the ones you will not see today)",
+            "header": "<p style=\" text-align: center;  color: white;  position: relative;  padding: 1rem;  background-color: #181616; cursor: pointer;  min-width: 10em; display: inline-block; \">Due</p>",
+            "name": "review",
+            "overlay": null,
+            "percent": false,
+            "present": true,
+            "subdeck": true
+        },
+        {
+            "absolute": true,
+            "color": "#181616",
+            "description": "(Mature) Number of reviewed cards with interval at least 3 weeks",
+            "header": null,
+            "name": "mature",
+            "overlay": null,
+            "percent": false,
+            "present": false,
+            "subdeck": true
+        },
+        {
+            "absolute": true,
+            "color": "#a2a1a1",
+            "description": "(Young) Number of reviewed cards with interval less than 3 weeks",
+            "header": null,
+            "name": "young",
+            "overlay": null,
+            "percent": false,
+            "present": false,
+            "subdeck": true
+        },
+        {
+            "absolute": true,
+            "color": "transparent",
+            "description": " (Unseen) Cards that have never been answered. Neither buried nor suspended.",
+            "header": "",
+            "name": "unseen",
+            "overlay": "",
+            "percent": false,
+            "present": false,
+            "subdeck": true
+        },
+        {
+            "absolute": true,
+            "color": "#464444",
+            "description": "Number of suspended cards (cards you will never see unless you unsuspend them in the browser)",
+            "header": null,
+            "name": "suspended",
+            "overlay": null,
+            "percent": false,
+            "present": false,
+            "subdeck": true
+        },
+        {
+            "description": "Percent bar showing the decks' repartition",
+            "header": "<p style=\" text-align: center;  color: white;  position: relative;  padding: 1rem;  background-color: #181616; cursor: pointer;  min-width: 10em; display: inline-block; \">PoG-ress</p>",
+            "name": "bar",
+            "names": [
+                "mature",
+                "young",
+                "learning card",
+                "unseen",
+                "buried",
+                "suspended"
+            ],
+            "overlay": null,
+            "present": true,
+            "subdeck": true
+        }
+    ],
+    "default column color": "red",
+    "do color empty": true,
+    "do color marked": true,
+    "dot in numbers": true,
+    "end symbol": ";",
+    "ended marked background color": "red",
+    "given up symbol": "/",
+    "hide values of parent decks": false,
+    "hide values of parent decks when subdecks are shown": false,
+    "marked background color": "powderblue",
+    "option": true,
+    "pause symbol": "="
+}
+}}}
+
